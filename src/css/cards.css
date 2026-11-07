@@ -1,0 +1,11 @@
+:root{--card-radius:var(--radius-card);--card-padding:24px;--card-shadow:0 4px 20px color-mix(in srgb,var(--theme-ink),transparent 97%)}
+.app-card.app-card{min-width:0;border:0;border-radius:var(--card-radius);background:#fff;padding:var(--card-padding);box-shadow:var(--card-shadow)}
+.app-card.app-card--soft{background:var(--theme-soft)}
+.app-card.app-card--flush{padding:0;overflow:hidden}
+.app-card.theme-option{padding:calc(var(--theme-inset) - 2px);border:0;border-radius:var(--radius-theme);background:var(--preview-bg)}
+.app-card.theme-option.selected{box-shadow:inset 0 0 0 2px var(--preview-accent)}
+main:has(.overview-panel)>header.app-card.overview-widgets{border:0;background:#fff;box-shadow:var(--card-shadow);padding:16px 20px;border-radius:var(--card-radius)}
+.app-card.domain-table-card{display:block}.domain-table-card .domain-desktop-table{border:0;border-radius:0}
+.domain-mobile-list>.app-card{padding:20px;border:0}
+@media(max-width:700px){:root{--card-padding:20px}main:has(.overview-panel)>header.app-card.overview-widgets{padding:16px}}
+@container(max-width:800px){.app-card.domain-table-card{display:none}}

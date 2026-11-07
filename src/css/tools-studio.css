@@ -1,0 +1,52 @@
+.tools-studio{
+  padding:30px 28px 80px;min-height:calc(100dvh - 160px);
+  border-radius:22px;background:var(--theme-bg);color:var(--theme-ink);
+}
+main:has(>.tools-studio){padding:0}
+.tools-studio .file-tools-heading{justify-content:flex-start;gap:22px;padding:4px 20px;margin-bottom:40px}
+.tools-studio .studio-heading-icon{box-sizing:content-box;flex-shrink:0;padding:15px;background:var(--theme-soft);color:var(--theme-accent);border-radius:18px}
+.tools-studio .file-tools-heading>div{flex:1;min-width:0}
+.tools-studio .file-tools-heading h1{font-size:30px;font-weight:750;margin-bottom:0}
+.tools-studio .file-tools-heading p{font-size:14px}
+.tools-studio .file-tools-local{background:var(--theme-soft);color:var(--theme-accent)}
+.tools-studio .file-tools-layout{grid-template-columns:minmax(0,1.27fr) minmax(0,1fr);gap:22px;align-items:stretch}
+.tools-studio :is(.file-tools-input,.file-tools-options){padding:24px 22px;border-radius:24px;background:color-mix(in srgb,var(--theme-bg),white 75%)}
+.tools-studio h2{font-size:21px;font-weight:700}
+.tools-studio .file-tools-section-title{margin-bottom:25px}
+.tools-studio .file-tools-drop{min-height:360px;gap:18px;background:var(--theme-bg);border-radius:16px}
+.tools-studio .file-tools-drop>svg{box-sizing:content-box;width:52px;height:52px;padding:28px;border-radius:24px;background:var(--theme-soft);color:var(--theme-accent)}
+.tools-studio .file-tools-drop strong{font-size:19px;font-weight:650}
+.tools-studio .file-tools-drop span{font-size:12px}
+.tools-studio .file-tools-input>.file-tools-note{padding:15px 20px;background:var(--theme-soft);color:var(--theme-ink);border-radius:15px;margin-top:18px}
+.tools-studio .file-tools-options h2{margin-bottom:22px}
+.tools-studio .el-form-item{display:grid;grid-template-columns:100px minmax(0,1fr);align-items:start;gap:14px;margin:0 0 16px;padding:12px;background:var(--theme-bg);border-radius:15px}
+.tools-studio .el-form-item__label{margin:0;padding:8px 0;font-size:14px;font-weight:600;color:var(--theme-ink);line-height:20px;height:auto}
+.tools-studio .el-form-item__content{min-width:0}
+.tools-studio .el-select{width:100%}
+:root body .tools-studio .el-select__wrapper{min-height:38px;background:var(--theme-accent);color:#fff;border-radius:10px;transition:transform var(--duration) var(--ease),opacity var(--duration) var(--ease)}
+:root body .tools-studio .el-select :is(.el-select__placeholder,.el-select__selected-item,.el-select__caret,.el-select__input){color:#fff}
+.tools-studio .el-select__wrapper.is-disabled{opacity:.45}
+.tools-studio .el-select__wrapper:active:not(.is-disabled){transform:scale(.99)}
+.tools-studio .file-tools-submit{height:49px;margin-top:26px;border-radius:16px;font-size:17px;font-weight:650}
+:root body .tools-studio .file-tools-submit{background:var(--theme-accent);color:#fff}
+.tools-studio .file-tools-submit.is-disabled{opacity:.45}
+.tools-studio .conversion-mode{padding:12px 16px;background:var(--theme-soft);border-radius:16px;margin-bottom:22px}
+.tools-studio .file-tools-files li{padding:14px;background:var(--theme-bg);border-radius:14px;margin-top:10px}
+:root[data-theme="mono"] .tools-studio :is(.file-tools-input,.file-tools-options){background:#000}
+:root[data-theme="mono"] body .tools-studio :is(.file-tools-submit,.el-select__wrapper){background:#fff;color:#000}
+:root[data-theme="mono"] body .tools-studio .el-select :is(.el-select__placeholder,.el-select__selected-item,.el-select__caret,.el-select__input){color:#000}
+@media(hover:hover){.tools-studio .el-select__wrapper:hover:not(.is-disabled){opacity:.85}}
+@container(max-width:800px){
+  .tools-studio .file-tools-layout{grid-template-columns:1fr}
+  .tools-studio .file-tools-heading{padding:0;gap:12px;margin-bottom:26px}
+  .tools-studio .file-tools-heading h1{font-size:24px}
+  .tools-studio .file-tools-drop{min-height:280px}
+}
+@container(max-width:450px){
+  .tools-studio .file-tools-heading{flex-wrap:wrap}
+  .tools-studio .el-form-item{grid-template-columns:1fr;gap:8px}
+  .tools-studio .file-tools-heading>div{flex-basis:calc(100% - 85px)}
+  .tools-studio .file-tools-drop strong{font-size:16px}
+}
+@media(max-width:700px){.tools-studio{padding:24px 16px 40px}}
+@media(prefers-reduced-motion:reduce){.tools-studio *{transition:none!important;animation:none!important}}

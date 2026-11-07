@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "个人工作台",
+  "version": "0.1.0",
+  "identifier": "com.personal.workbench",
+  "build": { "frontendDist": "../dist" },
+  "app": { "windows": [], "security": { "csp": null } },
+  "bundle": {
+    "active": true,
+    "targets": ["nsis"],
+    "icon": ["icons/icon.ico", "icons/icon.png"],
+    "resources": { "../artifacts/desktop-install-resources/": "./", "../artifacts/desktop-crt/": "./" },
+    "windows": {
+      "webviewInstallMode": { "type": "skip" },
+      "nsis": { "compression": "none", "installMode": "currentUser", "languages": ["SimpChinese"], "displayLanguageSelector": false, "installerHooks": "../desktop/installer-hooks.nsh" }
+    }
+  }
+}
+

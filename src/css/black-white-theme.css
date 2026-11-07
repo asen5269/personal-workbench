@@ -1,0 +1,49 @@
+:root[data-theme="mono"] {
+  color-scheme: dark;
+  background: #000;
+  color: #fff;
+  --el-bg-color: #000;
+  --el-bg-color-page: #000;
+  --el-bg-color-overlay: #000;
+  --el-text-color-primary: #fff;
+  --el-text-color-regular: #fff;
+  --el-text-color-secondary: #fff;
+  --el-text-color-placeholder: #fff;
+  --el-text-color-disabled: #fff;
+  --el-border-color: #fff;
+  --el-border-color-light: #fff;
+  --el-border-color-lighter: #fff;
+  --el-border-color-extra-light: #fff;
+  --el-fill-color: #000;
+  --el-fill-color-light: #000;
+  --el-fill-color-lighter: #000;
+  --el-fill-color-extra-light: #000;
+  --el-fill-color-blank: #000;
+  --el-fill-color-dark: #000;
+  --el-mask-color: #000c;
+}
+:root[data-theme="mono"] :is(body,.shell,.shell>aside,.workspace-header,.workspace-content>main,.app-card.app-card,.card,.parser-input,.parse-result,.overview-widgets,.weather-card,.clock-tile,.settings-menu .el-menu-item.is-active,.theme-option[aria-pressed="true"]) {
+  background: #000 !important;
+  color: #fff;
+  border-color: #fff;
+}
+:root[data-theme="mono"] :is(.app-card.app-card,.card,.workspace-header,.shell>aside) {
+  box-shadow: none;
+}
+:root[data-theme="mono"] :is(h1,h2,h3,p,small,label,.brand strong,.digital-clock,.weather-reading,.clock-date,.clock-seconds,.el-dialog__title,.theme-option-label,.theme-option small) { color: #fff; }
+:root[data-theme="mono"] :is(.header-icon-button,.brand-mark,.avatar,.parser-symbol,.el-input__wrapper,.el-select__wrapper,.el-textarea__inner,.el-button) { background: #000; color: #fff; border-color: #fff; }
+:root[data-theme="mono"] .workspace-nav .el-menu-item.is-active { background: #fff; color: #000; }
+:root[data-theme="mono"] .workspace-nav .el-menu-item.is-active .nav-icon { color: #000; }
+:root[data-theme="mono"] .el-button--primary:not(.el-button--danger):not(.is-plain):not(.is-link):not(.is-text) {
+  --el-button-bg-color:#fff;--el-button-border-color:#fff;--el-button-text-color:#000;
+  --el-button-hover-bg-color:#fff;--el-button-hover-border-color:#fff;--el-button-hover-text-color:#000;
+  --el-button-active-bg-color:#fff;--el-button-active-border-color:#fff;--el-button-active-text-color:#000;
+  background:#fff;color:#000;
+}
+:root[data-theme="mono"] .theme-option { color:#000; }
+:root[data-theme="mono"] .theme-option .theme-option-label { color:#000; }
+:root[data-theme="mono"] .theme-option.selected .theme-option-label { color:#fff; }
+:root[data-theme="mono"] .theme-option small { color:inherit; }
+.theme-option[style*="--preview-accent: #ffffff"] .theme-check { color:#000; }
+.theme-option[style*="--preview-accent: #ffffff"] .theme-preview { border-color:#fff; }
+.theme-option[style*="--preview-accent: #ffffff"] :is(.preview-sidebar i,.preview-content>b) { background:#fff; }

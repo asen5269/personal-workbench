@@ -1,0 +1,22 @@
+:root body .bookmark-dialog .el-input{
+  border:1px solid color-mix(in srgb,var(--theme-accent),transparent 65%)!important;
+  border-radius:var(--radius-control);
+}
+:root body .bookmark-dialog .el-input__wrapper{
+  box-shadow:none!important;
+  background:var(--el-bg-color,#fff);
+}
+:root body .bookmark-dialog .el-input-group__prepend{
+  border-right:1px solid color-mix(in srgb,var(--theme-accent),transparent 75%)!important;
+  box-shadow:none;
+}
+:root body .bookmark-dialog .el-input-group__append{
+  border-left:1px solid color-mix(in srgb,var(--theme-accent),transparent 75%)!important;
+  box-shadow:none;
+}
+:root body .bookmark-dialog .el-input :is(.el-input__wrapper,.el-input__inner){
+  outline:none!important;
+}
+:root body .bookmark-dialog .el-input:focus-within{
+  border-color:var(--theme-accent)!important;
+}

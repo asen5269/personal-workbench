@@ -1,0 +1,5676 @@
+{
+  "version": "4.41.1",
+  "count": 449,
+  "items": [
+    {
+      "method": "activate_init_profile",
+      "path": "/activate/init/profile",
+      "title": "初始化名字",
+      "category": "其他",
+      "params": [
+        "nickname"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/activate_init_profile.js",
+      "write": false
+    },
+    {
+      "method": "ad_get",
+      "path": "/ad/get",
+      "title": "获取广告",
+      "category": "其他",
+      "params": [
+        "type_ids"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/ad_get.js",
+      "write": false
+    },
+    {
+      "method": "ad_listening_rights",
+      "path": "/ad/listening/rights",
+      "title": "获取免费听时长状态",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/ad_listening_rights.js",
+      "write": false
+    },
+    {
+      "method": "ad_listening_rights_gain",
+      "path": "/ad/listening/rights/gain",
+      "title": "看广告免费听歌 - 领取免费听权益",
+      "category": "其他",
+      "params": [
+        "appInfo",
+        "clickTime",
+        "contextInfo",
+        "creativeType",
+        "exposureTime",
+        "extraRightsGainDuration",
+        "extraRightsGainMethod",
+        "extraRightsType",
+        "gainMethodStep",
+        "generalRightsInfo",
+        "installed",
+        "nextRightsGainDuration",
+        "playContinuously",
+        "reqUid",
+        "rightsExtJson",
+        "rightsGainDuration",
+        "rightsGainMethod",
+        "rightsGainType",
+        "sniffTime",
+        "source",
+        "type_ids",
+        "uid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/ad_listening_rights_gain.js",
+      "write": false
+    },
+    {
+      "method": "aidj_content_rcmd",
+      "path": "/aidj/content/rcmd",
+      "title": "私人 DJ",
+      "category": "其他",
+      "params": [
+        "latitude",
+        "longitude"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/aidj_content_rcmd.js",
+      "write": false
+    },
+    {
+      "method": "album",
+      "path": "/album",
+      "title": "专辑内容",
+      "category": "专辑",
+      "params": [
+        "id"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/album.js",
+      "write": false
+    },
+    {
+      "method": "album_detail",
+      "path": "/album/detail",
+      "title": "数字专辑详情",
+      "category": "专辑",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/album_detail.js",
+      "write": false
+    },
+    {
+      "method": "album_detail_dynamic",
+      "path": "/album/detail/dynamic",
+      "title": "专辑动态信息",
+      "category": "专辑",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/album_detail_dynamic.js",
+      "write": false
+    },
+    {
+      "method": "album_list",
+      "path": "/album/list",
+      "title": "数字专辑-新碟上架",
+      "category": "专辑",
+      "params": [
+        "area",
+        "limit",
+        "offset",
+        "type"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/album_list.js",
+      "write": false
+    },
+    {
+      "method": "album_list_style",
+      "path": "/album/list/style",
+      "title": "数字专辑-语种风格馆",
+      "category": "专辑",
+      "params": [
+        "area",
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/album_list_style.js",
+      "write": false
+    },
+    {
+      "method": "album_new",
+      "path": "/album/new",
+      "title": "全部新碟",
+      "category": "专辑",
+      "params": [
+        "area",
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/album_new.js",
+      "write": false
+    },
+    {
+      "method": "album_newest",
+      "path": "/album/newest",
+      "title": "最新专辑",
+      "category": "专辑",
+      "params": [],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/album_newest.js",
+      "write": false
+    },
+    {
+      "method": "album_privilege",
+      "path": "/album/privilege",
+      "title": "获取专辑歌曲的音质",
+      "category": "专辑",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/album_privilege.js",
+      "write": false
+    },
+    {
+      "method": "album_songsaleboard",
+      "path": "/album/songsaleboard",
+      "title": "数字专辑&数字单曲-榜单",
+      "category": "专辑",
+      "params": [
+        "albumType",
+        "type",
+        "year"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/album_songsaleboard.js",
+      "write": false
+    },
+    {
+      "method": "album_sub",
+      "path": "/album/sub",
+      "title": "收藏/取消收藏专辑",
+      "category": "专辑",
+      "params": [
+        "id",
+        "t"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/album_sub.js",
+      "write": true
+    },
+    {
+      "method": "album_sublist",
+      "path": "/album/sublist",
+      "title": "已收藏专辑列表",
+      "category": "专辑",
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/album_sublist.js",
+      "write": false
+    },
+    {
+      "method": "api",
+      "path": "/api",
+      "title": "api",
+      "category": "其他",
+      "params": [
+        "data",
+        "uri"
+      ],
+      "integration": "restricted",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/api.js",
+      "write": false
+    },
+    {
+      "method": "artist_album",
+      "path": "/artist/album",
+      "title": "歌手专辑列表",
+      "category": "歌手",
+      "params": [
+        "id",
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/artist_album.js",
+      "write": false
+    },
+    {
+      "method": "artist_desc",
+      "path": "/artist/desc",
+      "title": "歌手介绍",
+      "category": "歌手",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/artist_desc.js",
+      "write": false
+    },
+    {
+      "method": "artist_detail",
+      "path": "/artist/detail",
+      "title": "artist_detail",
+      "category": "歌手",
+      "params": [
+        "id"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/artist_detail.js",
+      "write": false
+    },
+    {
+      "method": "artist_detail_dynamic",
+      "path": "/artist/detail/dynamic",
+      "title": "歌手动态信息",
+      "category": "歌手",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/artist_detail_dynamic.js",
+      "write": false
+    },
+    {
+      "method": "artist_fans",
+      "path": "/artist/fans",
+      "title": "歌手粉丝",
+      "category": "歌手",
+      "params": [
+        "id",
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/artist_fans.js",
+      "write": false
+    },
+    {
+      "method": "artist_follow_count",
+      "path": "/artist/follow/count",
+      "title": "歌手粉丝数量",
+      "category": "歌手",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/artist_follow_count.js",
+      "write": false
+    },
+    {
+      "method": "artist_list",
+      "path": "/artist/list",
+      "title": "歌手分类",
+      "category": "歌手",
+      "params": [
+        "area",
+        "initial",
+        "limit",
+        "offset",
+        "type"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/artist_list.js",
+      "write": false
+    },
+    {
+      "method": "artist_mv",
+      "path": "/artist/mv",
+      "title": "歌手相关MV",
+      "category": "歌手",
+      "params": [
+        "id",
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/artist_mv.js",
+      "write": false
+    },
+    {
+      "method": "artist_new_mv",
+      "path": "/artist/new/mv",
+      "title": "artist_new_mv",
+      "category": "歌手",
+      "params": [
+        "before",
+        "limit"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/artist_new_mv.js",
+      "write": false
+    },
+    {
+      "method": "artist_new_song",
+      "path": "/artist/new/song",
+      "title": "artist_new_song",
+      "category": "歌手",
+      "params": [
+        "before",
+        "limit"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/artist_new_song.js",
+      "write": false
+    },
+    {
+      "method": "artist_new_song_mv_list_v2",
+      "path": "/artist/new/song/mv/list/v2",
+      "title": "获取关注歌手的新歌曲和 MV",
+      "category": "歌手",
+      "params": [
+        "before",
+        "firstRequest",
+        "limit",
+        "sourceType",
+        "startTimestamp"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/artist_new_song_mv_list_v2.js",
+      "write": false
+    },
+    {
+      "method": "artist_new_song_playall",
+      "path": "/artist/new/song/playall",
+      "title": "获取所有关注歌手最近的 50 首新歌",
+      "category": "歌手",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/artist_new_song_playall.js",
+      "write": false
+    },
+    {
+      "method": "artist_songs",
+      "path": "/artist/songs",
+      "title": "artist_songs",
+      "category": "歌手",
+      "params": [
+        "id",
+        "limit",
+        "offset",
+        "order"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/artist_songs.js",
+      "write": false
+    },
+    {
+      "method": "artist_sub",
+      "path": "/artist/sub",
+      "title": "收藏与取消收藏歌手",
+      "category": "歌手",
+      "params": [
+        "id",
+        "t"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/artist_sub.js",
+      "write": true
+    },
+    {
+      "method": "artist_sublist",
+      "path": "/artist/sublist",
+      "title": "关注歌手列表",
+      "category": "歌手",
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/artist_sublist.js",
+      "write": false
+    },
+    {
+      "method": "artist_top_song",
+      "path": "/artist/top/song",
+      "title": "歌手热门 50 首歌曲",
+      "category": "歌手",
+      "params": [
+        "id"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/artist_top_song.js",
+      "write": false
+    },
+    {
+      "method": "artist_video",
+      "path": "/artist/video",
+      "title": "歌手相关视频",
+      "category": "歌手",
+      "params": [
+        "cursor",
+        "id",
+        "order",
+        "size"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/artist_video.js",
+      "write": false
+    },
+    {
+      "method": "artists",
+      "path": "/artists",
+      "title": "歌手单曲",
+      "category": "其他",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/artists.js",
+      "write": false
+    },
+    {
+      "method": "audio_match",
+      "path": "/audio/match",
+      "title": "audio_match",
+      "category": "其他",
+      "params": [
+        "audioFP",
+        "duration"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/audio_match.js",
+      "write": false
+    },
+    {
+      "method": "avatar_upload",
+      "path": "/avatar/upload",
+      "title": "avatar_upload",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/avatar_upload.js",
+      "write": false
+    },
+    {
+      "method": "banner",
+      "path": "/banner",
+      "title": "首页轮播图",
+      "category": "其他",
+      "params": [
+        "type"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/banner.js",
+      "write": false
+    },
+    {
+      "method": "batch",
+      "path": "/batch",
+      "title": "批量请求接口",
+      "category": "其他",
+      "params": [],
+      "integration": "restricted",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/batch.js",
+      "write": false
+    },
+    {
+      "method": "broadcast_category_region_get",
+      "path": "/broadcast/category/region/get",
+      "title": "广播电台 - 分类/地区信息",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/broadcast_category_region_get.js",
+      "write": false
+    },
+    {
+      "method": "broadcast_channel_collect_list",
+      "path": "/broadcast/channel/collect/list",
+      "title": "广播电台 - 我的收藏",
+      "category": "其他",
+      "params": [
+        "limit"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/broadcast_channel_collect_list.js",
+      "write": false
+    },
+    {
+      "method": "broadcast_channel_currentinfo",
+      "path": "/broadcast/channel/currentinfo",
+      "title": "广播电台 - 电台信息",
+      "category": "其他",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/broadcast_channel_currentinfo.js",
+      "write": false
+    },
+    {
+      "method": "broadcast_channel_list",
+      "path": "/broadcast/channel/list",
+      "title": "广播电台 - 全部电台",
+      "category": "其他",
+      "params": [
+        "categoryId",
+        "lastId",
+        "limit",
+        "regionId",
+        "score"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/broadcast_channel_list.js",
+      "write": false
+    },
+    {
+      "method": "broadcast_sub",
+      "path": "/broadcast/sub",
+      "title": "广播电台 - 收藏/取消收藏电台",
+      "category": "其他",
+      "params": [
+        "id",
+        "t"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/broadcast_sub.js",
+      "write": true
+    },
+    {
+      "method": "calendar",
+      "path": "/calendar",
+      "title": "calendar",
+      "category": "其他",
+      "params": [
+        "endTime",
+        "startTime"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/calendar.js",
+      "write": false
+    },
+    {
+      "method": "captcha_safe_sent",
+      "path": "/captcha/safe/sent",
+      "title": "发送安全验证码",
+      "category": "其他",
+      "params": [
+        "ctcode"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/captcha_safe_sent.js",
+      "write": false
+    },
+    {
+      "method": "captcha_sent",
+      "path": "/captcha/sent",
+      "title": "发送验证码",
+      "category": "其他",
+      "params": [
+        "ctcode",
+        "phone"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/captcha_sent.js",
+      "write": false
+    },
+    {
+      "method": "captcha_sent_v1",
+      "path": "/captcha/sent/v1",
+      "title": "发送验证码",
+      "category": "其他",
+      "params": [
+        "ctcode",
+        "phone"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/captcha_sent_v1.js",
+      "write": false
+    },
+    {
+      "method": "captcha_verify",
+      "path": "/captcha/verify",
+      "title": "校验验证码",
+      "category": "其他",
+      "params": [
+        "captcha",
+        "ctcode",
+        "phone"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/captcha_verify.js",
+      "write": false
+    },
+    {
+      "method": "cellphone_existence_check",
+      "path": "/cellphone/existence/check",
+      "title": "检测手机号码是否已注册",
+      "category": "其他",
+      "params": [
+        "countrycode",
+        "phone"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/cellphone_existence_check.js",
+      "write": false
+    },
+    {
+      "method": "chart_detail",
+      "path": "/chart/detail",
+      "title": "获取指定维度音乐排行榜详情",
+      "category": "其他",
+      "params": [
+        "chartCode",
+        "targetId",
+        "targetType"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/chart_detail.js",
+      "write": false
+    },
+    {
+      "method": "chart_song_detail",
+      "path": "/chart/song/detail",
+      "title": "获取指定维度音乐排行榜列表",
+      "category": "其他",
+      "params": [
+        "chartCode",
+        "targetId",
+        "targetType"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/chart_song_detail.js",
+      "write": false
+    },
+    {
+      "method": "check_music",
+      "path": "/check/music",
+      "title": "歌曲可用性",
+      "category": "其他",
+      "params": [
+        "br",
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/check_music.js",
+      "write": false
+    },
+    {
+      "method": "cloud",
+      "path": "/cloud",
+      "title": "cloud",
+      "category": "其他",
+      "params": [
+        "songFile"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/cloud.js",
+      "write": false
+    },
+    {
+      "method": "cloud_import",
+      "path": "/cloud/import",
+      "title": "云盘导入歌曲",
+      "category": "其他",
+      "params": [
+        "album",
+        "artist",
+        "bitrate",
+        "fileSize",
+        "fileType",
+        "id",
+        "md5",
+        "song"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/cloud_import.js",
+      "write": false
+    },
+    {
+      "method": "cloud_lyric_get",
+      "path": "/cloud/lyric/get",
+      "title": "获取云盘歌词",
+      "category": "其他",
+      "params": [
+        "sid",
+        "uid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/cloud_lyric_get.js",
+      "write": false
+    },
+    {
+      "method": "cloud_match",
+      "path": "/cloud/match",
+      "title": "cloud_match",
+      "category": "其他",
+      "params": [
+        "asid",
+        "sid",
+        "uid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/cloud_match.js",
+      "write": false
+    },
+    {
+      "method": "cloud_upload_complete",
+      "path": "/cloud/upload/complete",
+      "title": "cloud_upload_complete",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/cloud_upload_complete.js",
+      "write": false
+    },
+    {
+      "method": "cloud_upload_token",
+      "path": "/cloud/upload/token",
+      "title": "cloud_upload_token",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/cloud_upload_token.js",
+      "write": false
+    },
+    {
+      "method": "cloudsearch",
+      "path": "/cloudsearch",
+      "title": "搜索",
+      "category": "其他",
+      "params": [
+        "keywords",
+        "limit",
+        "offset",
+        "type"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/cloudsearch.js",
+      "write": false
+    },
+    {
+      "method": "comment",
+      "path": "/comment",
+      "title": "comment",
+      "category": "评论",
+      "params": [
+        "commentId",
+        "content",
+        "id",
+        "t",
+        "threadId",
+        "type"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/comment.js",
+      "write": true
+    },
+    {
+      "method": "comment_add",
+      "path": "/comment/add",
+      "title": "comment_add",
+      "category": "评论",
+      "params": [
+        "content",
+        "id",
+        "type"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/comment_add.js",
+      "write": true
+    },
+    {
+      "method": "comment_album",
+      "path": "/comment/album",
+      "title": "专辑评论",
+      "category": "评论",
+      "params": [
+        "before",
+        "id",
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/comment_album.js",
+      "write": false
+    },
+    {
+      "method": "comment_delete",
+      "path": "/comment/delete",
+      "title": "comment_delete",
+      "category": "评论",
+      "params": [
+        "cid",
+        "id",
+        "type"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/comment_delete.js",
+      "write": true
+    },
+    {
+      "method": "comment_dj",
+      "path": "/comment/dj",
+      "title": "电台评论",
+      "category": "评论",
+      "params": [
+        "before",
+        "id",
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/comment_dj.js",
+      "write": false
+    },
+    {
+      "method": "comment_event",
+      "path": "/comment/event",
+      "title": "获取动态评论",
+      "category": "评论",
+      "params": [
+        "before",
+        "limit",
+        "offset",
+        "threadId"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/comment_event.js",
+      "write": false
+    },
+    {
+      "method": "comment_floor",
+      "path": "/comment/floor",
+      "title": "comment_floor",
+      "category": "评论",
+      "params": [
+        "id",
+        "limit",
+        "parentCommentId",
+        "time",
+        "type"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/comment_floor.js",
+      "write": false
+    },
+    {
+      "method": "comment_hot",
+      "path": "/comment/hot",
+      "title": "comment_hot",
+      "category": "评论",
+      "params": [
+        "before",
+        "id",
+        "limit",
+        "offset",
+        "type"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/comment_hot.js",
+      "write": false
+    },
+    {
+      "method": "comment_hug_list",
+      "path": "/comment/hug/list",
+      "title": "comment_hug_list",
+      "category": "评论",
+      "params": [
+        "cid",
+        "cursor",
+        "idCursor",
+        "page",
+        "pageSize",
+        "sid",
+        "type",
+        "uid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/comment_hug_list.js",
+      "write": false
+    },
+    {
+      "method": "comment_info_list",
+      "path": "/comment/info/list",
+      "title": "评论统计数据",
+      "category": "评论",
+      "params": [
+        "id",
+        "ids",
+        "type"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/comment_info_list.js",
+      "write": false
+    },
+    {
+      "method": "comment_like",
+      "path": "/comment/like",
+      "title": "comment_like",
+      "category": "评论",
+      "params": [
+        "cid",
+        "id",
+        "t",
+        "threadId",
+        "type"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/comment_like.js",
+      "write": false
+    },
+    {
+      "method": "comment_music",
+      "path": "/comment/music",
+      "title": "歌曲评论",
+      "category": "评论",
+      "params": [
+        "before",
+        "id",
+        "limit",
+        "offset"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/comment_music.js",
+      "write": false
+    },
+    {
+      "method": "comment_mv",
+      "path": "/comment/mv",
+      "title": "MV评论",
+      "category": "评论",
+      "params": [
+        "before",
+        "id",
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/comment_mv.js",
+      "write": false
+    },
+    {
+      "method": "comment_new",
+      "path": "/comment/new",
+      "title": "comment_new",
+      "category": "评论",
+      "params": [
+        "cursor",
+        "id",
+        "pageNo",
+        "pageSize",
+        "showInner",
+        "sortType",
+        "type"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/comment_new.js",
+      "write": false
+    },
+    {
+      "method": "comment_playlist",
+      "path": "/comment/playlist",
+      "title": "歌单评论",
+      "category": "评论",
+      "params": [
+        "before",
+        "id",
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/comment_playlist.js",
+      "write": false
+    },
+    {
+      "method": "comment_reply",
+      "path": "/comment/reply",
+      "title": "comment_reply",
+      "category": "评论",
+      "params": [
+        "cid",
+        "content",
+        "id",
+        "type"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/comment_reply.js",
+      "write": false
+    },
+    {
+      "method": "comment_report",
+      "path": "/comment/report",
+      "title": "举报评论",
+      "category": "评论",
+      "params": [
+        "cid",
+        "id",
+        "reason"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/comment_report.js",
+      "write": false
+    },
+    {
+      "method": "comment_video",
+      "path": "/comment/video",
+      "title": "视频评论",
+      "category": "评论",
+      "params": [
+        "before",
+        "id",
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/comment_video.js",
+      "write": false
+    },
+    {
+      "method": "countries_code_list",
+      "path": "/countries/code/list",
+      "title": "国家编码列表",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/countries_code_list.js",
+      "write": false
+    },
+    {
+      "method": "creator_authinfo_get",
+      "path": "/creator/authinfo/get",
+      "title": "获取达人用户信息",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/creator_authinfo_get.js",
+      "write": false
+    },
+    {
+      "method": "daily_signin",
+      "path": "/daily/signin",
+      "title": "签到",
+      "category": "其他",
+      "params": [
+        "type"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/daily_signin.js",
+      "write": false
+    },
+    {
+      "method": "decrypt",
+      "path": "/decrypt",
+      "title": "decrypt",
+      "category": "其他",
+      "params": [
+        "data",
+        "hexString",
+        "isReq"
+      ],
+      "integration": "restricted",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/decrypt.js",
+      "write": false
+    },
+    {
+      "method": "device_kickoff",
+      "path": "/device/kickoff",
+      "title": "强制下线设备",
+      "category": "其他",
+      "params": [
+        "captcha",
+        "deviceKey"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/device_kickoff.js",
+      "write": false
+    },
+    {
+      "method": "device_list",
+      "path": "/device/list",
+      "title": "登录设备列表",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/device_list.js",
+      "write": false
+    },
+    {
+      "method": "deviceinfo_center_upload",
+      "path": "/deviceinfo/center/upload",
+      "title": "上报设备中心设备名称",
+      "category": "其他",
+      "params": [
+        "deviceName",
+        "name"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/deviceinfo_center_upload.js",
+      "write": false
+    },
+    {
+      "method": "digitalAlbum_detail",
+      "path": "/digitalAlbum/detail",
+      "title": "数字专辑详情",
+      "category": "其他",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/digitalAlbum_detail.js",
+      "write": false
+    },
+    {
+      "method": "digitalAlbum_ordering",
+      "path": "/digitalAlbum/ordering",
+      "title": "购买数字专辑",
+      "category": "其他",
+      "params": [
+        "id",
+        "payment",
+        "quantity"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/digitalAlbum_ordering.js",
+      "write": false
+    },
+    {
+      "method": "digitalAlbum_purchased",
+      "path": "/digitalAlbum/purchased",
+      "title": "我的数字专辑",
+      "category": "其他",
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/digitalAlbum_purchased.js",
+      "write": false
+    },
+    {
+      "method": "digitalAlbum_sales",
+      "path": "/digitalAlbum/sales",
+      "title": "数字专辑销量",
+      "category": "其他",
+      "params": [
+        "ids"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/digitalAlbum_sales.js",
+      "write": false
+    },
+    {
+      "method": "dj_banner",
+      "path": "/dj/banner",
+      "title": "电台banner",
+      "category": "播客电台",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/dj_banner.js",
+      "write": false
+    },
+    {
+      "method": "dj_category_excludehot",
+      "path": "/dj/category/excludehot",
+      "title": "电台非热门类型",
+      "category": "播客电台",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/dj_category_excludehot.js",
+      "write": false
+    },
+    {
+      "method": "dj_category_recommend",
+      "path": "/dj/category/recommend",
+      "title": "电台推荐类型",
+      "category": "播客电台",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/dj_category_recommend.js",
+      "write": false
+    },
+    {
+      "method": "dj_catelist",
+      "path": "/dj/catelist",
+      "title": "电台分类列表",
+      "category": "播客电台",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/dj_catelist.js",
+      "write": false
+    },
+    {
+      "method": "dj_detail",
+      "path": "/dj/detail",
+      "title": "电台详情",
+      "category": "播客电台",
+      "params": [
+        "rid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/dj_detail.js",
+      "write": false
+    },
+    {
+      "method": "dj_difm_all_style_channel",
+      "path": "/dj/difm/all/style/channel",
+      "title": "DIFM电台 - 分类",
+      "category": "播客电台",
+      "params": [
+        "sources"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/dj_difm_all_style_channel.js",
+      "write": false
+    },
+    {
+      "method": "dj_difm_channel_subscribe",
+      "path": "/dj/difm/channel/subscribe",
+      "title": "DIFM电台 - 收藏频道",
+      "category": "播客电台",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/dj_difm_channel_subscribe.js",
+      "write": true
+    },
+    {
+      "method": "dj_difm_channel_unsubscribe",
+      "path": "/dj/difm/channel/unsubscribe",
+      "title": "DIFM电台 - 取消收藏频道",
+      "category": "播客电台",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/dj_difm_channel_unsubscribe.js",
+      "write": false
+    },
+    {
+      "method": "dj_difm_playing_tracks_list",
+      "path": "/dj/difm/playing/tracks/list",
+      "title": "DIFM电台 - 播放列表",
+      "category": "播客电台",
+      "params": [
+        "channelId",
+        "limit",
+        "source"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/dj_difm_playing_tracks_list.js",
+      "write": false
+    },
+    {
+      "method": "dj_difm_subscribe_channels_get",
+      "path": "/dj/difm/subscribe/channels/get",
+      "title": "DIFM电台 - 收藏列表",
+      "category": "播客电台",
+      "params": [
+        "sources"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/dj_difm_subscribe_channels_get.js",
+      "write": false
+    },
+    {
+      "method": "dj_hot",
+      "path": "/dj/hot",
+      "title": "热门电台",
+      "category": "播客电台",
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/dj_hot.js",
+      "write": false
+    },
+    {
+      "method": "dj_paygift",
+      "path": "/dj/paygift",
+      "title": "付费电台",
+      "category": "播客电台",
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/dj_paygift.js",
+      "write": false
+    },
+    {
+      "method": "dj_personalize_recommend",
+      "path": "/dj/personalize/recommend",
+      "title": "电台个性推荐",
+      "category": "播客电台",
+      "params": [
+        "limit"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/dj_personalize_recommend.js",
+      "write": false
+    },
+    {
+      "method": "dj_program",
+      "path": "/dj/program",
+      "title": "电台节目列表",
+      "category": "播客电台",
+      "params": [
+        "asc",
+        "limit",
+        "offset",
+        "rid"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/dj_program.js",
+      "write": false
+    },
+    {
+      "method": "dj_program_detail",
+      "path": "/dj/program/detail",
+      "title": "电台节目详情",
+      "category": "播客电台",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/dj_program_detail.js",
+      "write": false
+    },
+    {
+      "method": "dj_program_toplist",
+      "path": "/dj/program/toplist",
+      "title": "电台节目榜",
+      "category": "播客电台",
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/dj_program_toplist.js",
+      "write": false
+    },
+    {
+      "method": "dj_program_toplist_hours",
+      "path": "/dj/program/toplist/hours",
+      "title": "电台24小时节目榜",
+      "category": "播客电台",
+      "params": [
+        "limit"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/dj_program_toplist_hours.js",
+      "write": false
+    },
+    {
+      "method": "dj_radio_hot",
+      "path": "/dj/radio/hot",
+      "title": "类别热门电台",
+      "category": "播客电台",
+      "params": [
+        "cateId",
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/dj_radio_hot.js",
+      "write": false
+    },
+    {
+      "method": "dj_recommend",
+      "path": "/dj/recommend",
+      "title": "精选电台",
+      "category": "播客电台",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/dj_recommend.js",
+      "write": false
+    },
+    {
+      "method": "dj_recommend_type",
+      "path": "/dj/recommend/type",
+      "title": "精选电台分类",
+      "category": "播客电台",
+      "params": [
+        "type"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/dj_recommend_type.js",
+      "write": false
+    },
+    {
+      "method": "dj_sub",
+      "path": "/dj/sub",
+      "title": "订阅与取消电台",
+      "category": "播客电台",
+      "params": [
+        "rid",
+        "t"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/dj_sub.js",
+      "write": true
+    },
+    {
+      "method": "dj_sublist",
+      "path": "/dj/sublist",
+      "title": "订阅电台列表",
+      "category": "播客电台",
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/dj_sublist.js",
+      "write": false
+    },
+    {
+      "method": "dj_subscriber",
+      "path": "/dj/subscriber",
+      "title": "电台详情",
+      "category": "播客电台",
+      "params": [
+        "id",
+        "limit",
+        "time"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/dj_subscriber.js",
+      "write": false
+    },
+    {
+      "method": "dj_today_perfered",
+      "path": "/dj/today/perfered",
+      "title": "电台今日优选",
+      "category": "播客电台",
+      "params": [
+        "page"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/dj_today_perfered.js",
+      "write": false
+    },
+    {
+      "method": "dj_toplist",
+      "path": "/dj/toplist",
+      "title": "新晋电台榜/热门电台榜",
+      "category": "播客电台",
+      "params": [
+        "limit",
+        "offset",
+        "type"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/dj_toplist.js",
+      "write": false
+    },
+    {
+      "method": "dj_toplist_hours",
+      "path": "/dj/toplist/hours",
+      "title": "电台24小时主播榜",
+      "category": "播客电台",
+      "params": [
+        "limit"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/dj_toplist_hours.js",
+      "write": false
+    },
+    {
+      "method": "dj_toplist_newcomer",
+      "path": "/dj/toplist/newcomer",
+      "title": "电台新人榜",
+      "category": "播客电台",
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/dj_toplist_newcomer.js",
+      "write": false
+    },
+    {
+      "method": "dj_toplist_pay",
+      "path": "/dj/toplist/pay",
+      "title": "付费精品",
+      "category": "播客电台",
+      "params": [
+        "limit"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/dj_toplist_pay.js",
+      "write": false
+    },
+    {
+      "method": "dj_toplist_popular",
+      "path": "/dj/toplist/popular",
+      "title": "电台最热主播榜",
+      "category": "播客电台",
+      "params": [
+        "limit"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/dj_toplist_popular.js",
+      "write": false
+    },
+    {
+      "method": "djRadio_top",
+      "path": "/djRadio/top",
+      "title": "电台排行榜获取",
+      "category": "其他",
+      "params": [
+        "dataGapDays",
+        "dataType",
+        "djRadioId",
+        "sortIndex"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/djRadio_top.js",
+      "write": false
+    },
+    {
+      "method": "eapi_decrypt",
+      "path": "/eapi/decrypt",
+      "title": "eapi_decrypt",
+      "category": "其他",
+      "params": [
+        "hexString",
+        "isReq"
+      ],
+      "integration": "restricted",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/eapi_decrypt.js",
+      "write": false
+    },
+    {
+      "method": "event",
+      "path": "/event",
+      "title": "获取动态列表",
+      "category": "其他",
+      "params": [
+        "lasttime",
+        "pagesize"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/event.js",
+      "write": false
+    },
+    {
+      "method": "event_del",
+      "path": "/event/del",
+      "title": "删除动态",
+      "category": "其他",
+      "params": [
+        "evId"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/event_del.js",
+      "write": false
+    },
+    {
+      "method": "event_forward",
+      "path": "/event/forward",
+      "title": "event_forward",
+      "category": "其他",
+      "params": [
+        "evId",
+        "forwards",
+        "uid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/event_forward.js",
+      "write": false
+    },
+    {
+      "method": "event_privacy",
+      "path": "/event/privacy",
+      "title": "修改本人动态的可见权限",
+      "category": "其他",
+      "params": [
+        "evId",
+        "privacy"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/event_privacy.js",
+      "write": false
+    },
+    {
+      "method": "fans_group_detail",
+      "path": "/fans/group/detail",
+      "title": "乐迷团详情",
+      "category": "其他",
+      "params": [
+        "groupId",
+        "id",
+        "scene"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/fans_group_detail.js",
+      "write": false
+    },
+    {
+      "method": "fans_group_feed_recommend",
+      "path": "/fans/group/feed/recommend",
+      "title": "乐迷团推荐笔记",
+      "category": "其他",
+      "params": [
+        "artistSelf",
+        "cursor",
+        "fansGroupId",
+        "groupId",
+        "size"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/fans_group_feed_recommend.js",
+      "write": false
+    },
+    {
+      "method": "fans_group_user_group_detail",
+      "path": "/fans/group/user/group/detail",
+      "title": "用户所处乐迷团详情",
+      "category": "其他",
+      "params": [
+        "groupId",
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/fans_group_user_group_detail.js",
+      "write": false
+    },
+    {
+      "method": "fans_group_user_groups",
+      "path": "/fans/group/user/groups",
+      "title": "获取当前登录用户加入的全部歌手乐迷团列表",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/fans_group_user_groups.js",
+      "write": false
+    },
+    {
+      "method": "fanscenter_basicinfo_age_get",
+      "path": "/fanscenter/basicinfo/age/get",
+      "title": "粉丝年龄比例",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/fanscenter_basicinfo_age_get.js",
+      "write": false
+    },
+    {
+      "method": "fanscenter_basicinfo_gender_get",
+      "path": "/fanscenter/basicinfo/gender/get",
+      "title": "粉丝性别比例",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/fanscenter_basicinfo_gender_get.js",
+      "write": false
+    },
+    {
+      "method": "fanscenter_basicinfo_province_get",
+      "path": "/fanscenter/basicinfo/province/get",
+      "title": "粉丝省份比例",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/fanscenter_basicinfo_province_get.js",
+      "write": false
+    },
+    {
+      "method": "fanscenter_overview_get",
+      "path": "/fanscenter/overview/get",
+      "title": "粉丝数量",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/fanscenter_overview_get.js",
+      "write": false
+    },
+    {
+      "method": "fanscenter_trend_list",
+      "path": "/fanscenter/trend/list",
+      "title": "粉丝来源",
+      "category": "其他",
+      "params": [
+        "endTime",
+        "startTime",
+        "type"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/fanscenter_trend_list.js",
+      "write": false
+    },
+    {
+      "method": "fm_trash",
+      "path": "/fm/trash",
+      "title": "垃圾桶",
+      "category": "其他",
+      "params": [
+        "id",
+        "time"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/fm_trash.js",
+      "write": false
+    },
+    {
+      "method": "follow",
+      "path": "/follow",
+      "title": "关注与取消关注用户",
+      "category": "其他",
+      "params": [
+        "id",
+        "t"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/follow.js",
+      "write": true
+    },
+    {
+      "method": "get_userids",
+      "path": "/get/userids",
+      "title": "get_userids",
+      "category": "其他",
+      "params": [
+        "nicknames"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/get_userids.js",
+      "write": false
+    },
+    {
+      "method": "history_recommend_songs",
+      "path": "/history/recommend/songs",
+      "title": "历史每日推荐歌曲",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/history_recommend_songs.js",
+      "write": false
+    },
+    {
+      "method": "history_recommend_songs_detail",
+      "path": "/history/recommend/songs/detail",
+      "title": "历史每日推荐歌曲详情",
+      "category": "其他",
+      "params": [
+        "date"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/history_recommend_songs_detail.js",
+      "write": false
+    },
+    {
+      "method": "homepage_block_page",
+      "path": "/homepage/block/page",
+      "title": "首页-发现 block page",
+      "category": "其他",
+      "params": [
+        "cursor",
+        "refresh"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/homepage_block_page.js",
+      "write": false
+    },
+    {
+      "method": "homepage_dragon_ball",
+      "path": "/homepage/dragon/ball",
+      "title": "首页-发现 dragon ball",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/homepage_dragon_ball.js",
+      "write": false
+    },
+    {
+      "method": "hot_topic",
+      "path": "/hot/topic",
+      "title": "热门话题",
+      "category": "其他",
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/hot_topic.js",
+      "write": false
+    },
+    {
+      "method": "hug_comment",
+      "path": "/hug/comment",
+      "title": "hug_comment",
+      "category": "其他",
+      "params": [
+        "cid",
+        "sid",
+        "type",
+        "uid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/hug_comment.js",
+      "write": false
+    },
+    {
+      "method": "inner_version",
+      "path": "/inner/version",
+      "title": "inner_version",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/inner_version.js",
+      "write": false
+    },
+    {
+      "method": "lbs_city_code",
+      "path": "/lbs/city/code",
+      "title": "多级行政区划数据获取接口",
+      "category": "其他",
+      "params": [
+        "bizCode"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/lbs_city_code.js",
+      "write": false
+    },
+    {
+      "method": "like",
+      "path": "/like",
+      "title": "红心与取消红心歌曲",
+      "category": "其他",
+      "params": [
+        "id",
+        "like"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/like.js",
+      "write": true
+    },
+    {
+      "method": "like_v1",
+      "path": "/like/v1",
+      "title": "红心与取消红心歌曲- v1",
+      "category": "其他",
+      "params": [
+        "id",
+        "like"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/like_v1.js",
+      "write": false
+    },
+    {
+      "method": "likelist",
+      "path": "/likelist",
+      "title": "喜欢的歌曲(无序)",
+      "category": "其他",
+      "params": [
+        "uid"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/likelist.js",
+      "write": false
+    },
+    {
+      "method": "listen_data_realtime_report",
+      "path": "/listen/data/realtime/report",
+      "title": "听歌足迹 - 本周/本月收听时长",
+      "category": "其他",
+      "params": [
+        "type"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/listen_data_realtime_report.js",
+      "write": false
+    },
+    {
+      "method": "listen_data_report",
+      "path": "/listen/data/report",
+      "title": "听歌足迹 - 周/月/年收听报告",
+      "category": "其他",
+      "params": [
+        "endTime",
+        "type"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/listen_data_report.js",
+      "write": false
+    },
+    {
+      "method": "listen_data_song_play_rank",
+      "path": "/listen/data/song/play/rank",
+      "title": "听歌足迹 - 歌曲播放排行 (Top20)",
+      "category": "其他",
+      "params": [
+        "endTime",
+        "type"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/listen_data_song_play_rank.js",
+      "write": false
+    },
+    {
+      "method": "listen_data_today_song",
+      "path": "/listen/data/today/song",
+      "title": "听歌足迹 - 今日收听",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/listen_data_today_song.js",
+      "write": false
+    },
+    {
+      "method": "listen_data_total",
+      "path": "/listen/data/total",
+      "title": "听歌足迹 - 总收听时长",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/listen_data_total.js",
+      "write": false
+    },
+    {
+      "method": "listen_data_year_report",
+      "path": "/listen/data/year/report",
+      "title": "听歌足迹 - 年度听歌足迹",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/listen_data_year_report.js",
+      "write": false
+    },
+    {
+      "method": "listentogether_accept",
+      "path": "/listentogether/accept",
+      "title": "listentogether_accept",
+      "category": "其他",
+      "params": [
+        "inviterId",
+        "roomId"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/listentogether_accept.js",
+      "write": false
+    },
+    {
+      "method": "listentogether_end",
+      "path": "/listentogether/end",
+      "title": "一起听 结束房间",
+      "category": "其他",
+      "params": [
+        "roomId"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/listentogether_end.js",
+      "write": false
+    },
+    {
+      "method": "listentogether_heatbeat",
+      "path": "/listentogether/heatbeat",
+      "title": "一起听 发送心跳",
+      "category": "其他",
+      "params": [
+        "playStatus",
+        "progress",
+        "roomId",
+        "songId"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/listentogether_heatbeat.js",
+      "write": false
+    },
+    {
+      "method": "listentogether_play_command",
+      "path": "/listentogether/play/command",
+      "title": "一起听 发送播放状态",
+      "category": "其他",
+      "params": [
+        "clientSeq",
+        "commandType",
+        "formerSongId",
+        "playStatus",
+        "progress",
+        "roomId",
+        "targetSongId"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/listentogether_play_command.js",
+      "write": false
+    },
+    {
+      "method": "listentogether_room_check",
+      "path": "/listentogether/room/check",
+      "title": "一起听 房间情况",
+      "category": "其他",
+      "params": [
+        "roomId"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/listentogether_room_check.js",
+      "write": false
+    },
+    {
+      "method": "listentogether_room_create",
+      "path": "/listentogether/room/create",
+      "title": "一起听创建房间",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/listentogether_room_create.js",
+      "write": true
+    },
+    {
+      "method": "listentogether_status",
+      "path": "/listentogether/status",
+      "title": "一起听状态",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/listentogether_status.js",
+      "write": false
+    },
+    {
+      "method": "listentogether_sync_list_command",
+      "path": "/listentogether/sync/list/command",
+      "title": "一起听 更新播放列表",
+      "category": "其他",
+      "params": [
+        "commandType",
+        "displayList",
+        "randomList",
+        "roomId",
+        "userId",
+        "version"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/listentogether_sync_list_command.js",
+      "write": false
+    },
+    {
+      "method": "listentogether_sync_playlist_get",
+      "path": "/listentogether/sync/playlist/get",
+      "title": "一起听 当前列表获取",
+      "category": "其他",
+      "params": [
+        "roomId"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/listentogether_sync_playlist_get.js",
+      "write": false
+    },
+    {
+      "method": "login",
+      "path": "/login",
+      "title": "邮箱登录",
+      "category": "账号登录",
+      "params": [
+        "email",
+        "md5_password",
+        "password"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/login.js",
+      "write": false
+    },
+    {
+      "method": "login_cellphone",
+      "path": "/login/cellphone",
+      "title": "手机登录",
+      "category": "账号登录",
+      "params": [
+        "captcha",
+        "countrycode",
+        "md5_password",
+        "password",
+        "phone",
+        "sca"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/login_cellphone.js",
+      "write": false
+    },
+    {
+      "method": "login_qr_check",
+      "path": "/login/qr/check",
+      "title": "login_qr_check",
+      "category": "账号登录",
+      "params": [
+        "key"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/login_qr_check.js",
+      "write": false
+    },
+    {
+      "method": "login_qr_create",
+      "path": "/login/qr/create",
+      "title": "login_qr_create",
+      "category": "账号登录",
+      "params": [
+        "key",
+        "platform",
+        "qrimg"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/login_qr_create.js",
+      "write": true
+    },
+    {
+      "method": "login_qr_key",
+      "path": "/login/qr/key",
+      "title": "login_qr_key",
+      "category": "账号登录",
+      "params": [],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/login_qr_key.js",
+      "write": false
+    },
+    {
+      "method": "login_refresh",
+      "path": "/login/refresh",
+      "title": "登录刷新",
+      "category": "账号登录",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/login_refresh.js",
+      "write": false
+    },
+    {
+      "method": "login_status",
+      "path": "/login/status",
+      "title": "login_status",
+      "category": "账号登录",
+      "params": [],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/login_status.js",
+      "write": false
+    },
+    {
+      "method": "logout",
+      "path": "/logout",
+      "title": "退出登录",
+      "category": "账号登录",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/logout.js",
+      "write": false
+    },
+    {
+      "method": "lyric",
+      "path": "/lyric",
+      "title": "歌词",
+      "category": "其他",
+      "params": [
+        "id"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/lyric.js",
+      "write": false
+    },
+    {
+      "method": "lyric_new",
+      "path": "/lyric/new",
+      "title": "新版歌词 - 包含逐字歌词",
+      "category": "其他",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/lyric_new.js",
+      "write": false
+    },
+    {
+      "method": "middle_play_do_lottery",
+      "path": "/middle/play/do/lottery",
+      "title": "云小编每日抽奖",
+      "category": "其他",
+      "params": [
+        "activityId",
+        "drawCount"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/middle_play_do_lottery.js",
+      "write": false
+    },
+    {
+      "method": "middle_play_lottery_remain_chance",
+      "path": "/middle/play/lottery/remain/chance",
+      "title": "云小编抽奖剩余次数查询",
+      "category": "其他",
+      "params": [
+        "activityId"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/middle_play_lottery_remain_chance.js",
+      "write": false
+    },
+    {
+      "method": "mlog_music_rcmd",
+      "path": "/mlog/music/rcmd",
+      "title": "歌曲相关视频",
+      "category": "其他",
+      "params": [
+        "limit",
+        "mvid",
+        "songid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/mlog_music_rcmd.js",
+      "write": false
+    },
+    {
+      "method": "mlog_to_video",
+      "path": "/mlog/to/video",
+      "title": "将mlog id转为video id",
+      "category": "其他",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/mlog_to_video.js",
+      "write": false
+    },
+    {
+      "method": "mlog_url",
+      "path": "/mlog/url",
+      "title": "mlog链接",
+      "category": "其他",
+      "params": [
+        "id",
+        "res"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/mlog_url.js",
+      "write": false
+    },
+    {
+      "method": "msg_comments",
+      "path": "/msg/comments",
+      "title": "评论",
+      "category": "消息社交",
+      "params": [
+        "before",
+        "limit",
+        "uid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/msg_comments.js",
+      "write": false
+    },
+    {
+      "method": "msg_forwards",
+      "path": "/msg/forwards",
+      "title": "@我",
+      "category": "消息社交",
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/msg_forwards.js",
+      "write": false
+    },
+    {
+      "method": "msg_notices",
+      "path": "/msg/notices",
+      "title": "通知",
+      "category": "消息社交",
+      "params": [
+        "lasttime",
+        "limit"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/msg_notices.js",
+      "write": false
+    },
+    {
+      "method": "msg_private",
+      "path": "/msg/private",
+      "title": "私信",
+      "category": "消息社交",
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/msg_private.js",
+      "write": false
+    },
+    {
+      "method": "msg_private_history",
+      "path": "/msg/private/history",
+      "title": "私信内容",
+      "category": "消息社交",
+      "params": [
+        "before",
+        "limit",
+        "uid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/msg_private_history.js",
+      "write": false
+    },
+    {
+      "method": "msg_recentcontact",
+      "path": "/msg/recentcontact",
+      "title": "最近联系",
+      "category": "消息社交",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/msg_recentcontact.js",
+      "write": false
+    },
+    {
+      "method": "music_first_listen_info",
+      "path": "/music/first/listen/info",
+      "title": "回忆坐标",
+      "category": "其他",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/music_first_listen_info.js",
+      "write": false
+    },
+    {
+      "method": "musician_cloudbean",
+      "path": "/musician/cloudbean",
+      "title": "账号云豆数",
+      "category": "创作者",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/musician_cloudbean.js",
+      "write": false
+    },
+    {
+      "method": "musician_cloudbean_obtain",
+      "path": "/musician/cloudbean/obtain",
+      "title": "领取云豆",
+      "category": "创作者",
+      "params": [
+        "id",
+        "period"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/musician_cloudbean_obtain.js",
+      "write": false
+    },
+    {
+      "method": "musician_data_overview",
+      "path": "/musician/data/overview",
+      "title": "音乐人数据概况",
+      "category": "创作者",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/musician_data_overview.js",
+      "write": false
+    },
+    {
+      "method": "musician_play_trend",
+      "path": "/musician/play/trend",
+      "title": "音乐人歌曲播放趋势",
+      "category": "创作者",
+      "params": [
+        "endTime",
+        "startTime"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/musician_play_trend.js",
+      "write": false
+    },
+    {
+      "method": "musician_sign",
+      "path": "/musician/sign",
+      "title": "音乐人签到",
+      "category": "创作者",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/musician_sign.js",
+      "write": true
+    },
+    {
+      "method": "musician_tasks",
+      "path": "/musician/tasks",
+      "title": "获取音乐人任务",
+      "category": "创作者",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/musician_tasks.js",
+      "write": false
+    },
+    {
+      "method": "musician_tasks_new",
+      "path": "/musician/tasks/new",
+      "title": "获取音乐人任务",
+      "category": "创作者",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/musician_tasks_new.js",
+      "write": false
+    },
+    {
+      "method": "musician_vip_tasks",
+      "path": "/musician/vip/tasks",
+      "title": "获取音乐人任务",
+      "category": "创作者",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/musician_vip_tasks.js",
+      "write": false
+    },
+    {
+      "method": "mv_all",
+      "path": "/mv/all",
+      "title": "全部MV",
+      "category": "MV 视频",
+      "params": [
+        "area",
+        "limit",
+        "offset",
+        "order",
+        "type"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/mv_all.js",
+      "write": false
+    },
+    {
+      "method": "mv_detail",
+      "path": "/mv/detail",
+      "title": "MV详情",
+      "category": "MV 视频",
+      "params": [
+        "mvid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/mv_detail.js",
+      "write": false
+    },
+    {
+      "method": "mv_detail_info",
+      "path": "/mv/detail/info",
+      "title": "MV 点赞转发评论数数据",
+      "category": "MV 视频",
+      "params": [
+        "mvid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/mv_detail_info.js",
+      "write": false
+    },
+    {
+      "method": "mv_exclusive_rcmd",
+      "path": "/mv/exclusive/rcmd",
+      "title": "网易出品",
+      "category": "MV 视频",
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/mv_exclusive_rcmd.js",
+      "write": false
+    },
+    {
+      "method": "mv_first",
+      "path": "/mv/first",
+      "title": "最新MV",
+      "category": "MV 视频",
+      "params": [
+        "area",
+        "limit",
+        "offset"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/mv_first.js",
+      "write": false
+    },
+    {
+      "method": "mv_sub",
+      "path": "/mv/sub",
+      "title": "收藏与取消收藏MV",
+      "category": "MV 视频",
+      "params": [
+        "mvid",
+        "t"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/mv_sub.js",
+      "write": true
+    },
+    {
+      "method": "mv_sublist",
+      "path": "/mv/sublist",
+      "title": "已收藏MV列表",
+      "category": "MV 视频",
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/mv_sublist.js",
+      "write": false
+    },
+    {
+      "method": "mv_url",
+      "path": "/mv/url",
+      "title": "MV链接",
+      "category": "MV 视频",
+      "params": [
+        "id",
+        "r"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/mv_url.js",
+      "write": false
+    },
+    {
+      "method": "nickname_check",
+      "path": "/nickname/check",
+      "title": "nickname_check",
+      "category": "其他",
+      "params": [
+        "nickname"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/nickname_check.js",
+      "write": false
+    },
+    {
+      "method": "personal_fm",
+      "path": "/personal/fm",
+      "title": "私人FM",
+      "category": "其他",
+      "params": [],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/personal_fm.js",
+      "write": false
+    },
+    {
+      "method": "personal_fm_mode",
+      "path": "/personal/fm/mode",
+      "title": "私人FM - 模式选择",
+      "category": "其他",
+      "params": [
+        "limit",
+        "mode",
+        "submode"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/personal_fm_mode.js",
+      "write": false
+    },
+    {
+      "method": "personalized",
+      "path": "/personalized",
+      "title": "推荐歌单",
+      "category": "其他",
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/personalized.js",
+      "write": false
+    },
+    {
+      "method": "personalized_djprogram",
+      "path": "/personalized/djprogram",
+      "title": "推荐电台",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/personalized_djprogram.js",
+      "write": false
+    },
+    {
+      "method": "personalized_mv",
+      "path": "/personalized/mv",
+      "title": "推荐MV",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/personalized_mv.js",
+      "write": false
+    },
+    {
+      "method": "personalized_newsong",
+      "path": "/personalized/newsong",
+      "title": "推荐新歌",
+      "category": "其他",
+      "params": [
+        "areaId",
+        "limit"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/personalized_newsong.js",
+      "write": false
+    },
+    {
+      "method": "personalized_privatecontent",
+      "path": "/personalized/privatecontent",
+      "title": "独家放送",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/personalized_privatecontent.js",
+      "write": false
+    },
+    {
+      "method": "personalized_privatecontent_list",
+      "path": "/personalized/privatecontent/list",
+      "title": "独家放送列表",
+      "category": "其他",
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/personalized_privatecontent_list.js",
+      "write": false
+    },
+    {
+      "method": "pl_count",
+      "path": "/pl/count",
+      "title": "私信和通知接口",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/pl_count.js",
+      "write": false
+    },
+    {
+      "method": "playlist_category_list",
+      "path": "/playlist/category/list",
+      "title": "歌单分类列表",
+      "category": "歌单",
+      "params": [
+        "cat",
+        "limit"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/playlist_category_list.js",
+      "write": false
+    },
+    {
+      "method": "playlist_catlist",
+      "path": "/playlist/catlist",
+      "title": "全部歌单分类",
+      "category": "歌单",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/playlist_catlist.js",
+      "write": false
+    },
+    {
+      "method": "playlist_cover_update",
+      "path": "/playlist/cover/update",
+      "title": "playlist_cover_update",
+      "category": "歌单",
+      "params": [
+        "id",
+        "imgFile"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/playlist_cover_update.js",
+      "write": true
+    },
+    {
+      "method": "playlist_create",
+      "path": "/playlist/create",
+      "title": "创建歌单",
+      "category": "歌单",
+      "params": [
+        "name",
+        "privacy",
+        "type"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/playlist_create.js",
+      "write": true
+    },
+    {
+      "method": "playlist_delete",
+      "path": "/playlist/delete",
+      "title": "删除歌单",
+      "category": "歌单",
+      "params": [
+        "id"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/playlist_delete.js",
+      "write": true
+    },
+    {
+      "method": "playlist_desc_update",
+      "path": "/playlist/desc/update",
+      "title": "更新歌单描述",
+      "category": "歌单",
+      "params": [
+        "desc",
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/playlist_desc_update.js",
+      "write": true
+    },
+    {
+      "method": "playlist_detail",
+      "path": "/playlist/detail",
+      "title": "歌单详情",
+      "category": "歌单",
+      "params": [
+        "id",
+        "s"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/playlist_detail.js",
+      "write": false
+    },
+    {
+      "method": "playlist_detail_dynamic",
+      "path": "/playlist/detail/dynamic",
+      "title": "歌单动态信息",
+      "category": "歌单",
+      "params": [
+        "id",
+        "s"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/playlist_detail_dynamic.js",
+      "write": false
+    },
+    {
+      "method": "playlist_detail_rcmd_get",
+      "path": "/playlist/detail/rcmd/get",
+      "title": "相关歌单推荐",
+      "category": "歌单",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/playlist_detail_rcmd_get.js",
+      "write": false
+    },
+    {
+      "method": "playlist_highquality_tags",
+      "path": "/playlist/highquality/tags",
+      "title": "精品歌单 tags",
+      "category": "歌单",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/playlist_highquality_tags.js",
+      "write": false
+    },
+    {
+      "method": "playlist_hot",
+      "path": "/playlist/hot",
+      "title": "热门歌单分类",
+      "category": "歌单",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/playlist_hot.js",
+      "write": false
+    },
+    {
+      "method": "playlist_import_name_task_create",
+      "path": "/playlist/import/name/task/create",
+      "title": "歌单导入 - 元数据/文字/链接导入",
+      "category": "歌单",
+      "params": [
+        "importStarPlaylist",
+        "link",
+        "local",
+        "playlistName",
+        "text"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/playlist_import_name_task_create.js",
+      "write": true
+    },
+    {
+      "method": "playlist_import_task_status",
+      "path": "/playlist/import/task/status",
+      "title": "歌单导入 - 任务状态",
+      "category": "歌单",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/playlist_import_task_status.js",
+      "write": false
+    },
+    {
+      "method": "playlist_mylike",
+      "path": "/playlist/mylike",
+      "title": "playlist_mylike",
+      "category": "歌单",
+      "params": [
+        "limit",
+        "time"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/playlist_mylike.js",
+      "write": false
+    },
+    {
+      "method": "playlist_name_update",
+      "path": "/playlist/name/update",
+      "title": "更新歌单名",
+      "category": "歌单",
+      "params": [
+        "id",
+        "name"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/playlist_name_update.js",
+      "write": true
+    },
+    {
+      "method": "playlist_order_update",
+      "path": "/playlist/order/update",
+      "title": "编辑歌单顺序",
+      "category": "歌单",
+      "params": [
+        "ids"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/playlist_order_update.js",
+      "write": true
+    },
+    {
+      "method": "playlist_privacy",
+      "path": "/playlist/privacy",
+      "title": "公开隐私歌单",
+      "category": "歌单",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/playlist_privacy.js",
+      "write": false
+    },
+    {
+      "method": "playlist_subscribe",
+      "path": "/playlist/subscribe",
+      "title": "收藏与取消收藏歌单",
+      "category": "歌单",
+      "params": [
+        "checkToken",
+        "id",
+        "t"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/playlist_subscribe.js",
+      "write": true
+    },
+    {
+      "method": "playlist_subscribers",
+      "path": "/playlist/subscribers",
+      "title": "歌单收藏者",
+      "category": "歌单",
+      "params": [
+        "id",
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/playlist_subscribers.js",
+      "write": false
+    },
+    {
+      "method": "playlist_tags_update",
+      "path": "/playlist/tags/update",
+      "title": "更新歌单标签",
+      "category": "歌单",
+      "params": [
+        "id",
+        "tags"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/playlist_tags_update.js",
+      "write": true
+    },
+    {
+      "method": "playlist_track_add",
+      "path": "/playlist/track/add",
+      "title": "playlist_track_add",
+      "category": "歌单",
+      "params": [
+        "ids",
+        "pid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/playlist_track_add.js",
+      "write": true
+    },
+    {
+      "method": "playlist_track_all",
+      "path": "/playlist/track/all",
+      "title": "通过传过来的歌单id拿到所有歌曲数据",
+      "category": "歌单",
+      "params": [
+        "id",
+        "limit",
+        "offset",
+        "s"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/playlist_track_all.js",
+      "write": false
+    },
+    {
+      "method": "playlist_track_delete",
+      "path": "/playlist/track/delete",
+      "title": "收藏单曲到歌单 从歌单删除歌曲",
+      "category": "歌单",
+      "params": [
+        "id",
+        "ids"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/playlist_track_delete.js",
+      "write": true
+    },
+    {
+      "method": "playlist_tracks",
+      "path": "/playlist/tracks",
+      "title": "收藏单曲到歌单 从歌单删除歌曲",
+      "category": "歌单",
+      "params": [
+        "op",
+        "pid",
+        "tracks"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/playlist_tracks.js",
+      "write": false
+    },
+    {
+      "method": "playlist_update",
+      "path": "/playlist/update",
+      "title": "编辑歌单",
+      "category": "歌单",
+      "params": [
+        "desc",
+        "id",
+        "name",
+        "tags"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/playlist_update.js",
+      "write": true
+    },
+    {
+      "method": "playlist_update_playcount",
+      "path": "/playlist/update/playcount",
+      "title": "歌单打卡",
+      "category": "歌单",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/playlist_update_playcount.js",
+      "write": false
+    },
+    {
+      "method": "playlist_video_recent",
+      "path": "/playlist/video/recent",
+      "title": "playlist_video_recent",
+      "category": "歌单",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/playlist_video_recent.js",
+      "write": false
+    },
+    {
+      "method": "playmode_intelligence_list",
+      "path": "/playmode/intelligence/list",
+      "title": "智能播放",
+      "category": "其他",
+      "params": [
+        "count",
+        "id",
+        "pid",
+        "sid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/playmode_intelligence_list.js",
+      "write": false
+    },
+    {
+      "method": "playmode_song_vector",
+      "path": "/playmode/song/vector",
+      "title": "云随机播放",
+      "category": "其他",
+      "params": [
+        "ids"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/playmode_song_vector.js",
+      "write": false
+    },
+    {
+      "method": "program_recommend",
+      "path": "/program/recommend",
+      "title": "推荐节目",
+      "category": "其他",
+      "params": [
+        "limit",
+        "offset",
+        "type"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/program_recommend.js",
+      "write": false
+    },
+    {
+      "method": "radio_sport_get",
+      "path": "/radio/sport/get",
+      "title": "跑步漫游",
+      "category": "其他",
+      "params": [
+        "bpm"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/radio_sport_get.js",
+      "write": false
+    },
+    {
+      "method": "rebind",
+      "path": "/rebind",
+      "title": "更换手机",
+      "category": "其他",
+      "params": [
+        "captcha",
+        "ctcode",
+        "oldcaptcha",
+        "phone"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/rebind.js",
+      "write": false
+    },
+    {
+      "method": "recent_listen_list",
+      "path": "/recent/listen/list",
+      "title": "最近听歌列表",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/recent_listen_list.js",
+      "write": false
+    },
+    {
+      "method": "recommend_category_configs",
+      "path": "/recommend/category/configs",
+      "title": "每日风格推荐场景配置列表获取",
+      "category": "推荐",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/recommend_category_configs.js",
+      "write": false
+    },
+    {
+      "method": "recommend_category_set",
+      "path": "/recommend/category/set",
+      "title": "每日风格推荐场景配置设置",
+      "category": "推荐",
+      "params": [
+        "category",
+        "tags"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/recommend_category_set.js",
+      "write": false
+    },
+    {
+      "method": "recommend_category_songs",
+      "path": "/recommend/category/songs",
+      "title": "每日推荐风格歌曲",
+      "category": "推荐",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/recommend_category_songs.js",
+      "write": false
+    },
+    {
+      "method": "recommend_resource",
+      "path": "/recommend/resource",
+      "title": "每日推荐歌单",
+      "category": "推荐",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/recommend_resource.js",
+      "write": false
+    },
+    {
+      "method": "recommend_songs",
+      "path": "/recommend/songs",
+      "title": "每日推荐歌曲",
+      "category": "推荐",
+      "params": [
+        "afresh"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/recommend_songs.js",
+      "write": false
+    },
+    {
+      "method": "recommend_songs_dislike",
+      "path": "/recommend/songs/dislike",
+      "title": "每日推荐歌曲-不感兴趣",
+      "category": "推荐",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/recommend_songs_dislike.js",
+      "write": false
+    },
+    {
+      "method": "recommend_songs_v1",
+      "path": "/recommend/songs/v1",
+      "title": "每日推荐歌曲 - v1",
+      "category": "推荐",
+      "params": [
+        "ispush"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/recommend_songs_v1.js",
+      "write": false
+    },
+    {
+      "method": "record_recent_album",
+      "path": "/record/recent/album",
+      "title": "record_recent_album",
+      "category": "播放历史",
+      "params": [
+        "limit"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/record_recent_album.js",
+      "write": false
+    },
+    {
+      "method": "record_recent_dj",
+      "path": "/record/recent/dj",
+      "title": "record_recent_dj",
+      "category": "播放历史",
+      "params": [
+        "limit"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/record_recent_dj.js",
+      "write": false
+    },
+    {
+      "method": "record_recent_playlist",
+      "path": "/record/recent/playlist",
+      "title": "record_recent_playlist",
+      "category": "播放历史",
+      "params": [
+        "limit"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/record_recent_playlist.js",
+      "write": false
+    },
+    {
+      "method": "record_recent_song",
+      "path": "/record/recent/song",
+      "title": "record_recent_song",
+      "category": "播放历史",
+      "params": [
+        "limit"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/record_recent_song.js",
+      "write": false
+    },
+    {
+      "method": "record_recent_video",
+      "path": "/record/recent/video",
+      "title": "record_recent_video",
+      "category": "播放历史",
+      "params": [
+        "limit"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/record_recent_video.js",
+      "write": false
+    },
+    {
+      "method": "record_recent_voice",
+      "path": "/record/recent/voice",
+      "title": "record_recent_voice",
+      "category": "播放历史",
+      "params": [
+        "limit"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/record_recent_voice.js",
+      "write": false
+    },
+    {
+      "method": "register_anonimous",
+      "path": "/register/anonimous",
+      "title": "获取游客cookie",
+      "category": "账号登录",
+      "params": [],
+      "integration": "restricted",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/register_anonimous.js",
+      "write": false
+    },
+    {
+      "method": "register_cellphone",
+      "path": "/register/cellphone",
+      "title": "注册账号",
+      "category": "账号登录",
+      "params": [
+        "captcha",
+        "countrycode",
+        "nickname",
+        "password",
+        "phone"
+      ],
+      "integration": "restricted",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/register_cellphone.js",
+      "write": false
+    },
+    {
+      "method": "register_checktoken_v2",
+      "path": "/register/checktoken/v2",
+      "title": "易盾反作弊 Token 注册端点",
+      "category": "账号登录",
+      "params": [],
+      "integration": "restricted",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/register_checktoken_v2.js",
+      "write": false
+    },
+    {
+      "method": "register_checktoken_v3",
+      "path": "/register/checktoken/v3",
+      "title": "易盾反作弊 Token 注册端点",
+      "category": "账号登录",
+      "params": [],
+      "integration": "restricted",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/register_checktoken_v3.js",
+      "write": false
+    },
+    {
+      "method": "register_neapikey",
+      "path": "/register/neapikey",
+      "title": "register_neapikey",
+      "category": "账号登录",
+      "params": [
+        "behavior",
+        "version"
+      ],
+      "integration": "restricted",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/register_neapikey.js",
+      "write": false
+    },
+    {
+      "method": "register_xeapikey",
+      "path": "/register/xeapikey",
+      "title": "register_xeapikey",
+      "category": "账号登录",
+      "params": [
+        "currentKeyVersion",
+        "deviceId"
+      ],
+      "integration": "restricted",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/register_xeapikey.js",
+      "write": false
+    },
+    {
+      "method": "related_allvideo",
+      "path": "/related/allvideo",
+      "title": "相关视频",
+      "category": "其他",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/related_allvideo.js",
+      "write": false
+    },
+    {
+      "method": "related_playlist",
+      "path": "/related/playlist",
+      "title": "相关歌单",
+      "category": "其他",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/related_playlist.js",
+      "write": false
+    },
+    {
+      "method": "relay_play_state_submit",
+      "path": "/relay/play/state/submit",
+      "title": "提交歌曲播放状态",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/relay_play_state_submit.js",
+      "write": false
+    },
+    {
+      "method": "rep_ugc_activity_collect",
+      "path": "/rep/ugc/activity/collect",
+      "title": "云小编领取任务积分",
+      "category": "其他",
+      "params": [
+        "activityId"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/rep_ugc_activity_collect.js",
+      "write": false
+    },
+    {
+      "method": "rep_ugc_activity_get",
+      "path": "/rep/ugc/activity/get",
+      "title": "云小编活动信息",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/rep_ugc_activity_get.js",
+      "write": false
+    },
+    {
+      "method": "rep_ugc_exam_info_get",
+      "path": "/rep/ugc/exam/info/get",
+      "title": "云小编考试状态",
+      "category": "其他",
+      "params": [
+        "examType"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/rep_ugc_exam_info_get.js",
+      "write": false
+    },
+    {
+      "method": "rep_ugc_exam_question_single_get",
+      "path": "/rep/ugc/exam/question/single/get",
+      "title": "云小编考试取题",
+      "category": "其他",
+      "params": [
+        "examType",
+        "taskId"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/rep_ugc_exam_question_single_get.js",
+      "write": false
+    },
+    {
+      "method": "rep_ugc_exam_result_get",
+      "path": "/rep/ugc/exam/result/get",
+      "title": "云小编考试结果",
+      "category": "其他",
+      "params": [
+        "examType",
+        "taskId"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/rep_ugc_exam_result_get.js",
+      "write": false
+    },
+    {
+      "method": "rep_ugc_exam_start",
+      "path": "/rep/ugc/exam/start",
+      "title": "云小编考试开始",
+      "category": "其他",
+      "params": [
+        "examType"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/rep_ugc_exam_start.js",
+      "write": false
+    },
+    {
+      "method": "rep_ugc_exam_submit",
+      "path": "/rep/ugc/exam/submit",
+      "title": "云小编考试提交",
+      "category": "其他",
+      "params": [
+        "answer",
+        "examType",
+        "questionId",
+        "taskId"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/rep_ugc_exam_submit.js",
+      "write": false
+    },
+    {
+      "method": "rep_ugc_user_collect-vip",
+      "path": "/rep/ugc/user/collect-vip",
+      "title": "云小编领取一日会员",
+      "category": "其他",
+      "params": [
+        "activityId"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/rep_ugc_user_collect-vip.js",
+      "write": false
+    },
+    {
+      "method": "rep_ugc_user_get",
+      "path": "/rep/ugc/user/get",
+      "title": "云小编获取用户详情",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/rep_ugc_user_get.js",
+      "write": false
+    },
+    {
+      "method": "rep_ugc_user_sign",
+      "path": "/rep/ugc/user/sign",
+      "title": "云小编每日签到",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/rep_ugc_user_sign.js",
+      "write": true
+    },
+    {
+      "method": "rep_ugc_user_vip",
+      "path": "/rep/ugc/user/vip",
+      "title": "云小编查询会员任务状态",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/rep_ugc_user_vip.js",
+      "write": false
+    },
+    {
+      "method": "resource_like",
+      "path": "/resource/like",
+      "title": "点赞与取消点赞资源",
+      "category": "其他",
+      "params": [
+        "id",
+        "t",
+        "threadId",
+        "type"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/resource_like.js",
+      "write": false
+    },
+    {
+      "method": "sati_resource_list",
+      "path": "/sati/resource/list",
+      "title": "助眠解压 - 获取标签下资源列表",
+      "category": "其他",
+      "params": [
+        "tag"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/sati_resource_list.js",
+      "write": false
+    },
+    {
+      "method": "sati_resource_list_more",
+      "path": "/sati/resource/list/more",
+      "title": "助眠解压 - 查看同类推荐",
+      "category": "其他",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/sati_resource_list_more.js",
+      "write": false
+    },
+    {
+      "method": "sati_resource_sub",
+      "path": "/sati/resource/sub",
+      "title": "助眠解压 - 收藏",
+      "category": "其他",
+      "params": [
+        "cancel",
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/sati_resource_sub.js",
+      "write": true
+    },
+    {
+      "method": "sati_resource_sub_list",
+      "path": "/sati/resource/sub/list",
+      "title": "助眠解压 - 收藏列表",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/sati_resource_sub_list.js",
+      "write": false
+    },
+    {
+      "method": "sati_tag_list",
+      "path": "/sati/tag/list",
+      "title": "助眠解压 - 标签列表",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/sati_tag_list.js",
+      "write": false
+    },
+    {
+      "method": "sati_timescene_resources_get",
+      "path": "/sati/timescene/resources/get",
+      "title": "助眠解压 - 特定时间场景下的推荐资源",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/sati_timescene_resources_get.js",
+      "write": false
+    },
+    {
+      "method": "scrobble",
+      "path": "/scrobble",
+      "title": "听歌打卡",
+      "category": "其他",
+      "params": [
+        "id",
+        "sourceid",
+        "time"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/scrobble.js",
+      "write": false
+    },
+    {
+      "method": "scrobble_v1",
+      "path": "/scrobble/v1",
+      "title": "听歌打卡 - NCBL 加密版 (仿桌面客户端 PLV/PLD 上报)",
+      "category": "其他",
+      "params": [
+        "artist",
+        "bitrate",
+        "id",
+        "level",
+        "name",
+        "source",
+        "sourceId",
+        "sourceid",
+        "time",
+        "total",
+        "vip"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/scrobble_v1.js",
+      "write": false
+    },
+    {
+      "method": "search",
+      "path": "/search",
+      "title": "搜索",
+      "category": "搜索",
+      "params": [
+        "keywords",
+        "limit",
+        "offset",
+        "type"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/search.js",
+      "write": false
+    },
+    {
+      "method": "search_default",
+      "path": "/search/default",
+      "title": "默认搜索关键词",
+      "category": "搜索",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/search_default.js",
+      "write": false
+    },
+    {
+      "method": "search_hot",
+      "path": "/search/hot",
+      "title": "热门搜索",
+      "category": "搜索",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/search_hot.js",
+      "write": false
+    },
+    {
+      "method": "search_hot_detail",
+      "path": "/search/hot/detail",
+      "title": "热搜列表",
+      "category": "搜索",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/search_hot_detail.js",
+      "write": false
+    },
+    {
+      "method": "search_match",
+      "path": "/search/match",
+      "title": "本地歌曲匹配音乐信息",
+      "category": "搜索",
+      "params": [
+        "album",
+        "artist",
+        "duration",
+        "md5",
+        "title"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/search_match.js",
+      "write": false
+    },
+    {
+      "method": "search_multimatch",
+      "path": "/search/multimatch",
+      "title": "多类型搜索",
+      "category": "搜索",
+      "params": [
+        "keywords",
+        "type"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/search_multimatch.js",
+      "write": false
+    },
+    {
+      "method": "search_suggest",
+      "path": "/search/suggest",
+      "title": "搜索建议",
+      "category": "搜索",
+      "params": [
+        "keywords",
+        "type"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/search_suggest.js",
+      "write": false
+    },
+    {
+      "method": "search_suggest_pc",
+      "path": "/search/suggest/pc",
+      "title": "搜索建议pc端",
+      "category": "搜索",
+      "params": [
+        "keyword"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/search_suggest_pc.js",
+      "write": false
+    },
+    {
+      "method": "send_album",
+      "path": "/send/album",
+      "title": "私信专辑",
+      "category": "消息社交",
+      "params": [
+        "id",
+        "msg",
+        "user_ids"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/send_album.js",
+      "write": true
+    },
+    {
+      "method": "send_playlist",
+      "path": "/send/playlist",
+      "title": "私信歌单",
+      "category": "消息社交",
+      "params": [
+        "msg",
+        "playlist",
+        "user_ids"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/send_playlist.js",
+      "write": true
+    },
+    {
+      "method": "send_song",
+      "path": "/send/song",
+      "title": "私信歌曲",
+      "category": "消息社交",
+      "params": [
+        "id",
+        "msg",
+        "user_ids"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/send_song.js",
+      "write": true
+    },
+    {
+      "method": "send_text",
+      "path": "/send/text",
+      "title": "私信",
+      "category": "消息社交",
+      "params": [
+        "msg",
+        "user_ids"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/send_text.js",
+      "write": true
+    },
+    {
+      "method": "setting",
+      "path": "/setting",
+      "title": "设置",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/setting.js",
+      "write": false
+    },
+    {
+      "method": "share_resource",
+      "path": "/share/resource",
+      "title": "分享歌曲到动态",
+      "category": "其他",
+      "params": [
+        "id",
+        "msg",
+        "type"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/share_resource.js",
+      "write": true
+    },
+    {
+      "method": "sheet_list",
+      "path": "/sheet/list",
+      "title": "乐谱列表",
+      "category": "其他",
+      "params": [
+        "ab",
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/sheet_list.js",
+      "write": false
+    },
+    {
+      "method": "sheet_preview",
+      "path": "/sheet/preview",
+      "title": "乐谱预览",
+      "category": "其他",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/sheet_preview.js",
+      "write": false
+    },
+    {
+      "method": "sign_happy_info",
+      "path": "/sign/happy/info",
+      "title": "sign_happy_info",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/sign_happy_info.js",
+      "write": false
+    },
+    {
+      "method": "signin_progress",
+      "path": "/signin/progress",
+      "title": "签到进度",
+      "category": "其他",
+      "params": [
+        "moduleId"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/signin_progress.js",
+      "write": false
+    },
+    {
+      "method": "simi_artist",
+      "path": "/simi/artist",
+      "title": "相似歌手",
+      "category": "其他",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/simi_artist.js",
+      "write": false
+    },
+    {
+      "method": "simi_mv",
+      "path": "/simi/mv",
+      "title": "相似MV",
+      "category": "其他",
+      "params": [
+        "mvid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/simi_mv.js",
+      "write": false
+    },
+    {
+      "method": "simi_playlist",
+      "path": "/simi/playlist",
+      "title": "相似歌单",
+      "category": "其他",
+      "params": [
+        "id",
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/simi_playlist.js",
+      "write": false
+    },
+    {
+      "method": "simi_song",
+      "path": "/simi/song",
+      "title": "相似歌曲",
+      "category": "其他",
+      "params": [
+        "id",
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/simi_song.js",
+      "write": false
+    },
+    {
+      "method": "simi_user",
+      "path": "/simi/user",
+      "title": "相似用户",
+      "category": "其他",
+      "params": [
+        "id",
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/simi_user.js",
+      "write": false
+    },
+    {
+      "method": "song_chorus",
+      "path": "/song/chorus",
+      "title": "副歌时间",
+      "category": "歌曲",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/song_chorus.js",
+      "write": false
+    },
+    {
+      "method": "song_cloud_download",
+      "path": "/song/cloud/download",
+      "title": "从云盘获取歌曲下载链接",
+      "category": "歌曲",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/song_cloud_download.js",
+      "write": false
+    },
+    {
+      "method": "song_copyright_rcmd",
+      "path": "/song/copyright/rcmd",
+      "title": "灰色歌曲的其他版本推荐",
+      "category": "歌曲",
+      "params": [
+        "id",
+        "songid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/song_copyright_rcmd.js",
+      "write": false
+    },
+    {
+      "method": "song_creators",
+      "path": "/song/creators",
+      "title": "歌曲创作者信息",
+      "category": "歌曲",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/song_creators.js",
+      "write": false
+    },
+    {
+      "method": "song_detail",
+      "path": "/song/detail",
+      "title": "歌曲详情",
+      "category": "歌曲",
+      "params": [
+        "ids"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/song_detail.js",
+      "write": false
+    },
+    {
+      "method": "song_downlist",
+      "path": "/song/downlist",
+      "title": "会员下载歌曲记录",
+      "category": "歌曲",
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/song_downlist.js",
+      "write": false
+    },
+    {
+      "method": "song_download_url",
+      "path": "/song/download/url",
+      "title": "获取客户端歌曲下载链接",
+      "category": "歌曲",
+      "params": [
+        "br",
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/song_download_url.js",
+      "write": false
+    },
+    {
+      "method": "song_download_url_v1",
+      "path": "/song/download/url/v1",
+      "title": "获取客户端歌曲下载链接 - v1",
+      "category": "歌曲",
+      "params": [
+        "id",
+        "level"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/song_download_url_v1.js",
+      "write": false
+    },
+    {
+      "method": "song_dynamic_cover",
+      "path": "/song/dynamic/cover",
+      "title": "歌曲动态封面",
+      "category": "歌曲",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/song_dynamic_cover.js",
+      "write": false
+    },
+    {
+      "method": "song_like",
+      "path": "/song/like",
+      "title": "喜欢歌曲",
+      "category": "歌曲",
+      "params": [
+        "id",
+        "like",
+        "uid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/song_like.js",
+      "write": false
+    },
+    {
+      "method": "song_like_check",
+      "path": "/song/like/check",
+      "title": "歌曲是否喜爱",
+      "category": "歌曲",
+      "params": [
+        "ids"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/song_like_check.js",
+      "write": false
+    },
+    {
+      "method": "song_lyrics_mark",
+      "path": "/song/lyrics/mark",
+      "title": "歌词摘录 - 歌词摘录信息",
+      "category": "歌曲",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/song_lyrics_mark.js",
+      "write": false
+    },
+    {
+      "method": "song_lyrics_mark_add",
+      "path": "/song/lyrics/mark/add",
+      "title": "歌词摘录 - 添加/修改摘录歌词",
+      "category": "歌曲",
+      "params": [
+        "data",
+        "id",
+        "markId"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/song_lyrics_mark_add.js",
+      "write": true
+    },
+    {
+      "method": "song_lyrics_mark_del",
+      "path": "/song/lyrics/mark/del",
+      "title": "歌词摘录 - 删除摘录歌词",
+      "category": "歌曲",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/song_lyrics_mark_del.js",
+      "write": false
+    },
+    {
+      "method": "song_lyrics_mark_user_page",
+      "path": "/song/lyrics/mark/user/page",
+      "title": "歌词摘录 - 我的歌词本",
+      "category": "歌曲",
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/song_lyrics_mark_user_page.js",
+      "write": false
+    },
+    {
+      "method": "song_monthdownlist",
+      "path": "/song/monthdownlist",
+      "title": "会员本月下载歌曲记录",
+      "category": "歌曲",
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/song_monthdownlist.js",
+      "write": false
+    },
+    {
+      "method": "song_music_detail",
+      "path": "/song/music/detail",
+      "title": "歌曲音质详情",
+      "category": "歌曲",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/song_music_detail.js",
+      "write": false
+    },
+    {
+      "method": "song_order_update",
+      "path": "/song/order/update",
+      "title": "更新歌曲顺序",
+      "category": "歌曲",
+      "params": [
+        "ids",
+        "pid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/song_order_update.js",
+      "write": true
+    },
+    {
+      "method": "song_purchased",
+      "path": "/song/purchased",
+      "title": "已购单曲",
+      "category": "歌曲",
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/song_purchased.js",
+      "write": false
+    },
+    {
+      "method": "song_red_count",
+      "path": "/song/red/count",
+      "title": "歌曲红心数量",
+      "category": "歌曲",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/song_red_count.js",
+      "write": false
+    },
+    {
+      "method": "song_simi_get",
+      "path": "/song/simi/get",
+      "title": "插播相似歌曲",
+      "category": "歌曲",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/song_simi_get.js",
+      "write": false
+    },
+    {
+      "method": "song_singledownlist",
+      "path": "/song/singledownlist",
+      "title": "已购买单曲",
+      "category": "歌曲",
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/song_singledownlist.js",
+      "write": false
+    },
+    {
+      "method": "song_url",
+      "path": "/song/url",
+      "title": "歌曲链接",
+      "category": "歌曲",
+      "params": [
+        "br",
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/song_url.js",
+      "write": false
+    },
+    {
+      "method": "song_url_match",
+      "path": "/song/url/match",
+      "title": "网易云歌曲解灰(适配SPlayer的UNM-Server)",
+      "category": "歌曲",
+      "params": [
+        "id",
+        "source"
+      ],
+      "integration": "restricted",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/song_url_match.js",
+      "write": false
+    },
+    {
+      "method": "song_url_ncmget",
+      "path": "/song/url/ncmget",
+      "title": "夹带私货的东西就不要放在这里了",
+      "category": "歌曲",
+      "params": [],
+      "integration": "restricted",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/song_url_ncmget.js",
+      "write": false
+    },
+    {
+      "method": "song_url_v1",
+      "path": "/song/url/v1",
+      "title": "歌曲链接 - v1",
+      "category": "歌曲",
+      "params": [
+        "id",
+        "immerseType",
+        "level",
+        "source"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/song_url_v1.js",
+      "write": false
+    },
+    {
+      "method": "song_url_v1_302",
+      "path": "/song/url/v1/302",
+      "title": "获取客户端歌曲下载链接 - v1",
+      "category": "歌曲",
+      "params": [
+        "id",
+        "level"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/song_url_v1_302.js",
+      "write": false
+    },
+    {
+      "method": "song_wiki_info",
+      "path": "/song/wiki/info",
+      "title": "歌曲百科",
+      "category": "歌曲",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/song_wiki_info.js",
+      "write": false
+    },
+    {
+      "method": "song_wiki_summary",
+      "path": "/song/wiki/summary",
+      "title": "音乐百科基础信息",
+      "category": "歌曲",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/song_wiki_summary.js",
+      "write": false
+    },
+    {
+      "method": "starpick_comments_summary",
+      "path": "/starpick/comments/summary",
+      "title": "云村星评馆 - 简要评论列表",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/starpick_comments_summary.js",
+      "write": false
+    },
+    {
+      "method": "style_album",
+      "path": "/style/album",
+      "title": "曲风-专辑",
+      "category": "曲风",
+      "params": [
+        "cursor",
+        "size",
+        "sort",
+        "tagId"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/style_album.js",
+      "write": false
+    },
+    {
+      "method": "style_artist",
+      "path": "/style/artist",
+      "title": "曲风-歌手",
+      "category": "曲风",
+      "params": [
+        "cursor",
+        "size",
+        "tagId"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/style_artist.js",
+      "write": false
+    },
+    {
+      "method": "style_detail",
+      "path": "/style/detail",
+      "title": "曲风详情",
+      "category": "曲风",
+      "params": [
+        "tagId"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/style_detail.js",
+      "write": false
+    },
+    {
+      "method": "style_list",
+      "path": "/style/list",
+      "title": "曲风列表",
+      "category": "曲风",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/style_list.js",
+      "write": false
+    },
+    {
+      "method": "style_playlist",
+      "path": "/style/playlist",
+      "title": "曲风-歌单",
+      "category": "曲风",
+      "params": [
+        "cursor",
+        "size",
+        "tagId"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/style_playlist.js",
+      "write": false
+    },
+    {
+      "method": "style_preference",
+      "path": "/style/preference",
+      "title": "曲风偏好",
+      "category": "曲风",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/style_preference.js",
+      "write": false
+    },
+    {
+      "method": "style_song",
+      "path": "/style/song",
+      "title": "曲风-歌曲",
+      "category": "曲风",
+      "params": [
+        "cursor",
+        "size",
+        "sort",
+        "tagId"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/style_song.js",
+      "write": false
+    },
+    {
+      "method": "summary_annual",
+      "path": "/summary/annual",
+      "title": "年度听歌报告2017-2023",
+      "category": "其他",
+      "params": [
+        "year"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/summary_annual.js",
+      "write": false
+    },
+    {
+      "method": "thinktank_audit_resource_detail",
+      "path": "/thinktank/audit/resource/detail",
+      "title": "云小编获取任务",
+      "category": "其他",
+      "params": [
+        "type"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/thinktank_audit_resource_detail.js",
+      "write": false
+    },
+    {
+      "method": "thinktank_audit_resource_update",
+      "path": "/thinktank/audit/resource/update",
+      "title": "云小编提交任务",
+      "category": "其他",
+      "params": [
+        "judgement",
+        "taskId",
+        "type"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/thinktank_audit_resource_update.js",
+      "write": true
+    },
+    {
+      "method": "threshold_detail_get",
+      "path": "/threshold/detail/get",
+      "title": "获取达人达标信息",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/threshold_detail_get.js",
+      "write": false
+    },
+    {
+      "method": "top_album",
+      "path": "/top/album",
+      "title": "新碟上架",
+      "category": "榜单",
+      "params": [
+        "area",
+        "limit",
+        "month",
+        "offset",
+        "type",
+        "year"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/top_album.js",
+      "write": false
+    },
+    {
+      "method": "top_artists",
+      "path": "/top/artists",
+      "title": "热门歌手",
+      "category": "榜单",
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/top_artists.js",
+      "write": false
+    },
+    {
+      "method": "top_list",
+      "path": "/top/list",
+      "title": "排行榜",
+      "category": "榜单",
+      "params": [
+        "id",
+        "idx"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/top_list.js",
+      "write": false
+    },
+    {
+      "method": "top_mv",
+      "path": "/top/mv",
+      "title": "MV排行榜",
+      "category": "榜单",
+      "params": [
+        "area",
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/top_mv.js",
+      "write": false
+    },
+    {
+      "method": "top_playlist",
+      "path": "/top/playlist",
+      "title": "分类歌单",
+      "category": "榜单",
+      "params": [
+        "cat",
+        "limit",
+        "offset",
+        "order"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/top_playlist.js",
+      "write": false
+    },
+    {
+      "method": "top_playlist_highquality",
+      "path": "/top/playlist/highquality",
+      "title": "精品歌单",
+      "category": "榜单",
+      "params": [
+        "before",
+        "cat",
+        "limit"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/top_playlist_highquality.js",
+      "write": false
+    },
+    {
+      "method": "top_song",
+      "path": "/top/song",
+      "title": "新歌速递",
+      "category": "榜单",
+      "params": [
+        "limit",
+        "offset",
+        "type"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/top_song.js",
+      "write": false
+    },
+    {
+      "method": "topic_detail",
+      "path": "/topic/detail",
+      "title": "topic_detail",
+      "category": "其他",
+      "params": [
+        "actid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/topic_detail.js",
+      "write": false
+    },
+    {
+      "method": "topic_detail_event_hot",
+      "path": "/topic/detail/event/hot",
+      "title": "topic_detail_event_hot",
+      "category": "其他",
+      "params": [
+        "actid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/topic_detail_event_hot.js",
+      "write": false
+    },
+    {
+      "method": "topic_sublist",
+      "path": "/topic/sublist",
+      "title": "收藏的专栏",
+      "category": "其他",
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/topic_sublist.js",
+      "write": false
+    },
+    {
+      "method": "toplist",
+      "path": "/toplist",
+      "title": "所有榜单介绍",
+      "category": "榜单",
+      "params": [],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/toplist.js",
+      "write": false
+    },
+    {
+      "method": "toplist_artist",
+      "path": "/toplist/artist",
+      "title": "歌手榜",
+      "category": "榜单",
+      "params": [
+        "type"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/toplist_artist.js",
+      "write": false
+    },
+    {
+      "method": "toplist_detail",
+      "path": "/toplist/detail",
+      "title": "所有榜单内容摘要",
+      "category": "榜单",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/toplist_detail.js",
+      "write": false
+    },
+    {
+      "method": "toplist_detail_v2",
+      "path": "/toplist/detail/v2",
+      "title": "所有榜单内容摘要v2",
+      "category": "榜单",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/toplist_detail_v2.js",
+      "write": false
+    },
+    {
+      "method": "ugc_album_get",
+      "path": "/ugc/album/get",
+      "title": "专辑简要百科信息",
+      "category": "其他",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/ugc_album_get.js",
+      "write": false
+    },
+    {
+      "method": "ugc_artist_get",
+      "path": "/ugc/artist/get",
+      "title": "歌手简要百科信息",
+      "category": "其他",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/ugc_artist_get.js",
+      "write": false
+    },
+    {
+      "method": "ugc_artist_search",
+      "path": "/ugc/artist/search",
+      "title": "搜索歌手",
+      "category": "其他",
+      "params": [
+        "keyword",
+        "limit"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/ugc_artist_search.js",
+      "write": false
+    },
+    {
+      "method": "ugc_detail",
+      "path": "/ugc/detail",
+      "title": "用户贡献内容",
+      "category": "其他",
+      "params": [
+        "auditStatus",
+        "limit",
+        "offset",
+        "order",
+        "sortBy",
+        "type"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/ugc_detail.js",
+      "write": false
+    },
+    {
+      "method": "ugc_mv_get",
+      "path": "/ugc/mv/get",
+      "title": "mv简要百科信息",
+      "category": "其他",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/ugc_mv_get.js",
+      "write": false
+    },
+    {
+      "method": "ugc_song_get",
+      "path": "/ugc/song/get",
+      "title": "歌曲简要百科信息",
+      "category": "其他",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/ugc_song_get.js",
+      "write": false
+    },
+    {
+      "method": "ugc_user_devote",
+      "path": "/ugc/user/devote",
+      "title": "用户贡献条目、积分、云贝数量",
+      "category": "其他",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/ugc_user_devote.js",
+      "write": false
+    },
+    {
+      "method": "user_account",
+      "path": "/user/account",
+      "title": "user_account",
+      "category": "用户与云盘",
+      "params": [],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/user_account.js",
+      "write": false
+    },
+    {
+      "method": "user_audio",
+      "path": "/user/audio",
+      "title": "用户创建的电台",
+      "category": "用户与云盘",
+      "params": [
+        "uid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/user_audio.js",
+      "write": false
+    },
+    {
+      "method": "user_binding",
+      "path": "/user/binding",
+      "title": "user_binding",
+      "category": "用户与云盘",
+      "params": [
+        "uid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/user_binding.js",
+      "write": false
+    },
+    {
+      "method": "user_bindingcellphone",
+      "path": "/user/bindingcellphone",
+      "title": "user_bindingcellphone",
+      "category": "用户与云盘",
+      "params": [
+        "captcha",
+        "countrycode",
+        "password",
+        "phone"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/user_bindingcellphone.js",
+      "write": false
+    },
+    {
+      "method": "user_cloud",
+      "path": "/user/cloud",
+      "title": "云盘数据",
+      "category": "用户与云盘",
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/user_cloud.js",
+      "write": false
+    },
+    {
+      "method": "user_cloud_del",
+      "path": "/user/cloud/del",
+      "title": "云盘歌曲删除",
+      "category": "用户与云盘",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/user_cloud_del.js",
+      "write": false
+    },
+    {
+      "method": "user_cloud_detail",
+      "path": "/user/cloud/detail",
+      "title": "云盘数据详情",
+      "category": "用户与云盘",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/user_cloud_detail.js",
+      "write": false
+    },
+    {
+      "method": "user_comment_history",
+      "path": "/user/comment/history",
+      "title": "user_comment_history",
+      "category": "用户与云盘",
+      "params": [
+        "limit",
+        "time",
+        "uid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/user_comment_history.js",
+      "write": false
+    },
+    {
+      "method": "user_detail",
+      "path": "/user/detail",
+      "title": "用户详情",
+      "category": "用户与云盘",
+      "params": [
+        "uid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/user_detail.js",
+      "write": false
+    },
+    {
+      "method": "user_detail_new",
+      "path": "/user/detail/new",
+      "title": "用户详情",
+      "category": "用户与云盘",
+      "params": [
+        "uid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/user_detail_new.js",
+      "write": false
+    },
+    {
+      "method": "user_dj",
+      "path": "/user/dj",
+      "title": "用户电台节目",
+      "category": "用户与云盘",
+      "params": [
+        "limit",
+        "offset",
+        "uid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/user_dj.js",
+      "write": false
+    },
+    {
+      "method": "user_event",
+      "path": "/user/event",
+      "title": "用户动态",
+      "category": "用户与云盘",
+      "params": [
+        "lasttime",
+        "limit",
+        "uid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/user_event.js",
+      "write": false
+    },
+    {
+      "method": "user_event_all",
+      "path": "/user/event/all",
+      "title": "获取当前登录用户可被上游枚举的全部动态",
+      "category": "用户与云盘",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/user_event_all.js",
+      "write": false
+    },
+    {
+      "method": "user_follow_mixed",
+      "path": "/user/follow/mixed",
+      "title": "当前账号关注的用户/歌手",
+      "category": "用户与云盘",
+      "params": [
+        "cursor",
+        "scene",
+        "size"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/user_follow_mixed.js",
+      "write": false
+    },
+    {
+      "method": "user_followeds",
+      "path": "/user/followeds",
+      "title": "关注TA的人(粉丝)",
+      "category": "用户与云盘",
+      "params": [
+        "limit",
+        "offset",
+        "uid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/user_followeds.js",
+      "write": false
+    },
+    {
+      "method": "user_follows",
+      "path": "/user/follows",
+      "title": "TA关注的人(关注)",
+      "category": "用户与云盘",
+      "params": [
+        "limit",
+        "offset",
+        "uid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/user_follows.js",
+      "write": false
+    },
+    {
+      "method": "user_level",
+      "path": "/user/level",
+      "title": "类别热门电台",
+      "category": "用户与云盘",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/user_level.js",
+      "write": false
+    },
+    {
+      "method": "user_medal",
+      "path": "/user/medal",
+      "title": "用户徽章",
+      "category": "用户与云盘",
+      "params": [
+        "uid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/user_medal.js",
+      "write": false
+    },
+    {
+      "method": "user_mutualfollow_get",
+      "path": "/user/mutualfollow/get",
+      "title": "用户是否互相关注",
+      "category": "用户与云盘",
+      "params": [
+        "uid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/user_mutualfollow_get.js",
+      "write": false
+    },
+    {
+      "method": "user_playlist",
+      "path": "/user/playlist",
+      "title": "用户歌单",
+      "category": "用户与云盘",
+      "params": [
+        "limit",
+        "offset",
+        "uid"
+      ],
+      "integration": "player",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/user_playlist.js",
+      "write": false
+    },
+    {
+      "method": "user_playlist_collect",
+      "path": "/user/playlist/collect",
+      "title": "获取用户的收藏歌单列表",
+      "category": "用户与云盘",
+      "params": [
+        "limit",
+        "offset",
+        "uid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/user_playlist_collect.js",
+      "write": false
+    },
+    {
+      "method": "user_playlist_create",
+      "path": "/user/playlist/create",
+      "title": "获取用户的创建歌单列表",
+      "category": "用户与云盘",
+      "params": [
+        "limit",
+        "offset",
+        "uid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/user_playlist_create.js",
+      "write": true
+    },
+    {
+      "method": "user_record",
+      "path": "/user/record",
+      "title": "听歌排行",
+      "category": "用户与云盘",
+      "params": [
+        "type",
+        "uid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/user_record.js",
+      "write": false
+    },
+    {
+      "method": "user_replacephone",
+      "path": "/user/replacephone",
+      "title": "user_replacephone",
+      "category": "用户与云盘",
+      "params": [
+        "captcha",
+        "countrycode",
+        "oldcaptcha",
+        "phone"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/user_replacephone.js",
+      "write": false
+    },
+    {
+      "method": "user_social_status",
+      "path": "/user/social/status",
+      "title": "用户状态",
+      "category": "用户与云盘",
+      "params": [
+        "uid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/user_social_status.js",
+      "write": false
+    },
+    {
+      "method": "user_social_status_edit",
+      "path": "/user/social/status/edit",
+      "title": "用户状态 - 编辑",
+      "category": "用户与云盘",
+      "params": [
+        "actionUrl",
+        "content",
+        "iconUrl",
+        "type"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/user_social_status_edit.js",
+      "write": false
+    },
+    {
+      "method": "user_social_status_rcmd",
+      "path": "/user/social/status/rcmd",
+      "title": "用户状态 - 相同状态的用户",
+      "category": "用户与云盘",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/user_social_status_rcmd.js",
+      "write": false
+    },
+    {
+      "method": "user_social_status_support",
+      "path": "/user/social/status/support",
+      "title": "用户状态 - 支持设置的状态",
+      "category": "用户与云盘",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/user_social_status_support.js",
+      "write": false
+    },
+    {
+      "method": "user_subcount",
+      "path": "/user/subcount",
+      "title": "收藏计数",
+      "category": "用户与云盘",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/user_subcount.js",
+      "write": false
+    },
+    {
+      "method": "user_update",
+      "path": "/user/update",
+      "title": "编辑用户信息",
+      "category": "用户与云盘",
+      "params": [
+        "birthday",
+        "city",
+        "gender",
+        "nickname",
+        "province",
+        "signature"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/user_update.js",
+      "write": true
+    },
+    {
+      "method": "verify_getQr",
+      "path": "/verify/getQr",
+      "title": "verify_getQr",
+      "category": "其他",
+      "params": [
+        "evid",
+        "sign",
+        "token",
+        "type",
+        "vid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/verify_getQr.js",
+      "write": false
+    },
+    {
+      "method": "verify_qrcodestatus",
+      "path": "/verify/qrcodestatus",
+      "title": "verify_qrcodestatus",
+      "category": "其他",
+      "params": [
+        "qr"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/verify_qrcodestatus.js",
+      "write": false
+    },
+    {
+      "method": "video_category_list",
+      "path": "/video/category/list",
+      "title": "视频分类列表",
+      "category": "MV 视频",
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/video_category_list.js",
+      "write": false
+    },
+    {
+      "method": "video_detail",
+      "path": "/video/detail",
+      "title": "视频详情",
+      "category": "MV 视频",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/video_detail.js",
+      "write": false
+    },
+    {
+      "method": "video_detail_info",
+      "path": "/video/detail/info",
+      "title": "视频点赞转发评论数数据",
+      "category": "MV 视频",
+      "params": [
+        "vid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/video_detail_info.js",
+      "write": false
+    },
+    {
+      "method": "video_group",
+      "path": "/video/group",
+      "title": "视频标签/分类下的视频",
+      "category": "MV 视频",
+      "params": [
+        "id",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/video_group.js",
+      "write": false
+    },
+    {
+      "method": "video_group_list",
+      "path": "/video/group/list",
+      "title": "视频标签列表",
+      "category": "MV 视频",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/video_group_list.js",
+      "write": false
+    },
+    {
+      "method": "video_sub",
+      "path": "/video/sub",
+      "title": "收藏与取消收藏视频",
+      "category": "MV 视频",
+      "params": [
+        "id",
+        "t"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/video_sub.js",
+      "write": true
+    },
+    {
+      "method": "video_timeline_all",
+      "path": "/video/timeline/all",
+      "title": "全部视频列表",
+      "category": "MV 视频",
+      "params": [
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/video_timeline_all.js",
+      "write": false
+    },
+    {
+      "method": "video_timeline_recommend",
+      "path": "/video/timeline/recommend",
+      "title": "推荐视频",
+      "category": "MV 视频",
+      "params": [
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/video_timeline_recommend.js",
+      "write": false
+    },
+    {
+      "method": "video_url",
+      "path": "/video/url",
+      "title": "视频链接",
+      "category": "MV 视频",
+      "params": [
+        "id",
+        "res"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/video_url.js",
+      "write": false
+    },
+    {
+      "method": "vip_growthpoint",
+      "path": "/vip/growthpoint",
+      "title": "会员成长值",
+      "category": "会员",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/vip_growthpoint.js",
+      "write": false
+    },
+    {
+      "method": "vip_growthpoint_details",
+      "path": "/vip/growthpoint/details",
+      "title": "会员成长值领取记录",
+      "category": "会员",
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/vip_growthpoint_details.js",
+      "write": false
+    },
+    {
+      "method": "vip_growthpoint_get",
+      "path": "/vip/growthpoint/get",
+      "title": "领取会员成长值",
+      "category": "会员",
+      "params": [
+        "ids"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/vip_growthpoint_get.js",
+      "write": false
+    },
+    {
+      "method": "vip_growthpoint_getall",
+      "path": "/vip/growthpoint/getall",
+      "title": "一键领取所有会员成长值",
+      "category": "会员",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/vip_growthpoint_getall.js",
+      "write": false
+    },
+    {
+      "method": "vip_info",
+      "path": "/vip/info",
+      "title": "获取 VIP 信息",
+      "category": "会员",
+      "params": [
+        "uid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/vip_info.js",
+      "write": false
+    },
+    {
+      "method": "vip_info_v2",
+      "path": "/vip/info/v2",
+      "title": "获取 VIP 信息",
+      "category": "会员",
+      "params": [
+        "uid"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/vip_info_v2.js",
+      "write": false
+    },
+    {
+      "method": "vip_sign",
+      "path": "/vip/sign",
+      "title": "黑胶乐签打卡",
+      "category": "会员",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/vip_sign.js",
+      "write": true
+    },
+    {
+      "method": "vip_sign_detail",
+      "path": "/vip/sign/detail",
+      "title": "黑胶乐签打卡详情",
+      "category": "会员",
+      "params": [
+        "timestamp"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/vip_sign_detail.js",
+      "write": false
+    },
+    {
+      "method": "vip_sign_history",
+      "path": "/vip/sign/history",
+      "title": "黑胶乐签打卡历史 / 状态查询",
+      "category": "会员",
+      "params": [
+        "type"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/vip_sign_history.js",
+      "write": false
+    },
+    {
+      "method": "vip_sign_info",
+      "path": "/vip/sign/info",
+      "title": "黑胶乐签未来签到信息",
+      "category": "会员",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/vip_sign_info.js",
+      "write": false
+    },
+    {
+      "method": "vip_tasks",
+      "path": "/vip/tasks",
+      "title": "会员任务",
+      "category": "会员",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/vip_tasks.js",
+      "write": false
+    },
+    {
+      "method": "vip_tasks_v1",
+      "path": "/vip/tasks/v1",
+      "title": "会员任务 - 新版",
+      "category": "会员",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/vip_tasks_v1.js",
+      "write": false
+    },
+    {
+      "method": "vip_timemachine",
+      "path": "/vip/timemachine",
+      "title": "黑胶时光机",
+      "category": "会员",
+      "params": [
+        "endTime",
+        "limit",
+        "startTime"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/vip_timemachine.js",
+      "write": false
+    },
+    {
+      "method": "voice_delete",
+      "path": "/voice/delete",
+      "title": "voice_delete",
+      "category": "声音",
+      "params": [
+        "ids"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/voice_delete.js",
+      "write": true
+    },
+    {
+      "method": "voice_detail",
+      "path": "/voice/detail",
+      "title": "voice_detail",
+      "category": "声音",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/voice_detail.js",
+      "write": false
+    },
+    {
+      "method": "voice_lyric",
+      "path": "/voice/lyric",
+      "title": "voice_lyric",
+      "category": "声音",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/voice_lyric.js",
+      "write": false
+    },
+    {
+      "method": "voice_upload",
+      "path": "/voice/upload",
+      "title": "voice_upload",
+      "category": "声音",
+      "params": [
+        "autoPublish",
+        "autoPublishText",
+        "categoryId",
+        "composedSongs",
+        "coverImgId",
+        "description",
+        "imgFile",
+        "orderNo",
+        "privacy",
+        "publishTime",
+        "secondCategoryId",
+        "songFile",
+        "songName",
+        "voiceListId"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/voice_upload.js",
+      "write": false
+    },
+    {
+      "method": "voicelist_detail",
+      "path": "/voicelist/detail",
+      "title": "voicelist_detail",
+      "category": "声音",
+      "params": [
+        "id"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/voicelist_detail.js",
+      "write": false
+    },
+    {
+      "method": "voicelist_list",
+      "path": "/voicelist/list",
+      "title": "voicelist_list",
+      "category": "声音",
+      "params": [
+        "limit",
+        "offset",
+        "voiceListId"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/voicelist_list.js",
+      "write": false
+    },
+    {
+      "method": "voicelist_list_search",
+      "path": "/voicelist/list/search",
+      "title": "声音搜索",
+      "category": "声音",
+      "params": [
+        "displayStatus",
+        "limit",
+        "name",
+        "offset",
+        "type",
+        "voiceFeeType",
+        "voiceListId"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/voicelist_list_search.js",
+      "write": false
+    },
+    {
+      "method": "voicelist_my_created",
+      "path": "/voicelist/my/created",
+      "title": "我创建的播客声音",
+      "category": "声音",
+      "params": [
+        "limit"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/voicelist_my_created.js",
+      "write": false
+    },
+    {
+      "method": "voicelist_search",
+      "path": "/voicelist/search",
+      "title": "voicelist_search",
+      "category": "声音",
+      "params": [
+        "keyword",
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/voicelist_search.js",
+      "write": false
+    },
+    {
+      "method": "voicelist_trans",
+      "path": "/voicelist/trans",
+      "title": "voicelist_trans",
+      "category": "声音",
+      "params": [
+        "limit",
+        "offset",
+        "position",
+        "programId",
+        "radioId"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/voicelist_trans.js",
+      "write": false
+    },
+    {
+      "method": "weblog",
+      "path": "/weblog",
+      "title": "操作记录",
+      "category": "其他",
+      "params": [
+        "data"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/weblog.js",
+      "write": false
+    },
+    {
+      "method": "yunbei",
+      "path": "/yunbei",
+      "title": "yunbei",
+      "category": "云贝",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/yunbei.js",
+      "write": false
+    },
+    {
+      "method": "yunbei_expense",
+      "path": "/yunbei/expense",
+      "title": "yunbei_expense",
+      "category": "云贝",
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/yunbei_expense.js",
+      "write": false
+    },
+    {
+      "method": "yunbei_info",
+      "path": "/yunbei/info",
+      "title": "yunbei_info",
+      "category": "云贝",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/yunbei_info.js",
+      "write": false
+    },
+    {
+      "method": "yunbei_rcmd_song",
+      "path": "/yunbei/rcmd/song",
+      "title": "云贝推歌",
+      "category": "云贝",
+      "params": [
+        "id",
+        "reason",
+        "yunbeiNum"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/yunbei_rcmd_song.js",
+      "write": false
+    },
+    {
+      "method": "yunbei_rcmd_song_history",
+      "path": "/yunbei/rcmd/song/history",
+      "title": "云贝推歌历史记录",
+      "category": "云贝",
+      "params": [
+        "cursor",
+        "size"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/yunbei_rcmd_song_history.js",
+      "write": false
+    },
+    {
+      "method": "yunbei_receipt",
+      "path": "/yunbei/receipt",
+      "title": "yunbei_receipt",
+      "category": "云贝",
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/yunbei_receipt.js",
+      "write": false
+    },
+    {
+      "method": "yunbei_sign",
+      "path": "/yunbei/sign",
+      "title": "yunbei_sign",
+      "category": "云贝",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/yunbei_sign.js",
+      "write": true
+    },
+    {
+      "method": "yunbei_task_finish",
+      "path": "/yunbei/task/finish",
+      "title": "yunbei_task_finish",
+      "category": "云贝",
+      "params": [
+        "depositCode",
+        "userTaskId"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/yunbei_task_finish.js",
+      "write": false
+    },
+    {
+      "method": "yunbei_task_finish_v1",
+      "path": "/yunbei/task/finish/v1",
+      "title": "云贝广告任务 - 完成任务领取云贝",
+      "category": "云贝",
+      "params": [
+        "yunbeiAmount"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/yunbei_task_finish_v1.js",
+      "write": false
+    },
+    {
+      "method": "yunbei_task_list_v1",
+      "path": "/yunbei/task/list/v1",
+      "title": "云贝广告任务 - 查询今日任务状态",
+      "category": "云贝",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/yunbei_task_list_v1.js",
+      "write": false
+    },
+    {
+      "method": "yunbei_task_recommend_song",
+      "path": "/yunbei/task/recommend/song",
+      "title": "云贝广告任务 - 获取推荐歌曲",
+      "category": "云贝",
+      "params": [
+        "limit",
+        "offset"
+      ],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/yunbei_task_recommend_song.js",
+      "write": false
+    },
+    {
+      "method": "yunbei_tasks",
+      "path": "/yunbei/tasks",
+      "title": "yunbei_tasks",
+      "category": "云贝",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/yunbei_tasks.js",
+      "write": false
+    },
+    {
+      "method": "yunbei_tasks_todo",
+      "path": "/yunbei/tasks/todo",
+      "title": "yunbei_tasks_todo",
+      "category": "云贝",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/yunbei_tasks_todo.js",
+      "write": false
+    },
+    {
+      "method": "yunbei_today",
+      "path": "/yunbei/today",
+      "title": "yunbei_today",
+      "category": "云贝",
+      "params": [],
+      "integration": "directory",
+      "source": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced/blob/main/module/yunbei_today.js",
+      "write": false
+    }
+  ]
+}

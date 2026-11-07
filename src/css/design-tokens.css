@@ -1,0 +1,23 @@
+/* Shared geometry. Components use semantic tokens; themes never override them. */
+:root {
+  --radius-surface: 24px;
+  --radius-dialog: 24px;
+  --radius-card: 16px;
+  --radius-control: 10px;
+  --radius-icon: 12px;
+  --radius-theme: 20px;
+  --theme-inset: 12px;
+  --radius-theme-preview: max(0px, calc(var(--radius-theme) - var(--theme-inset)));
+  --radius-small: 8px;
+  --radius-detail: 4px;
+  --radius-dot: 2px;
+  --radius-circle: 50%;
+  --el-border-radius-base: var(--radius-control);
+  --el-border-radius-small: var(--radius-small);
+  --el-border-radius-round: 999px;
+}
+
+.el-dialog, .el-message-box { border-radius: var(--radius-dialog); }
+.el-input__wrapper, .el-textarea__inner, .el-select__wrapper { border-radius: var(--radius-control); }
+.theme-option { padding: calc(var(--theme-inset) - 2px); }
+.header-icon-button { width: 40px; height: 40px; }

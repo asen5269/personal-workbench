@@ -1,0 +1,14 @@
+<script setup>
+import {computed,ref} from 'vue'
+import {ElMessageBox} from 'element-plus'
+import {IconHistory,IconSearch,IconTrash,IconMovie,IconRefresh,IconX} from '@tabler/icons-vue'
+const props=defineProps({items:Array,selected:Number,loading:Boolean,disabled:Boolean})
+const emit=defineEmits(['open','remove','clear','refresh','close'])
+const search=ref(''),broken=ref(new Set())
+const names={douyin:'抖音',xhs:'小红书',bilibili:'B站',kuaishou:'快手',tiktok:'TikTok',youtube:'YouTube',x:'X'}
+const filtered=computed(()=>props.items.filter(x=>`${x.title} ${names[x.platform]||x.platform}`.toLowerCase().includes(search.value.trim().toLowerCase())))
+async function remove(item){try{await ElMessageBox.confirm(`删除「${item.title}」的解析记录？`,'删除记录',{confirmButtonText:'删除',cancelButtonText:'取消'});emit('remove',item.id)}catch{}}
+async function clear(){try{await ElMessageBox.confirm('清空全部解析历史？已下载的文件不受影响。','清空历史',{confirmButtonText:'清空',cancelButtonText:'取消'});emit('clear')}catch{}}
+const time=value=>new Intl.DateTimeFormat('zh-CN',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).format(new Date(value))
+</script>
+<template><div class="parse-history-panel"><div class="parse-history-heading"><h2><IconHistory :size="17"/>解析历史 <span>{{items.length}}</span></h2><button class="history-icon history-close" aria-label="关闭历史" @click="emit('close')"><IconX :size="17"/></button></div><el-input v-model="search" placeholder="搜索记录…" aria-label="搜索解析历史" clearable><template #prefix><IconSearch :size="15"/></template></el-input><div class="history-list" :aria-busy="loading"><p v-if="loading" class="history-empty">加载中…</p><p v-else-if="!filtered.length" class="history-empty">{{search?'没有匹配记录':'解析后自动保留在这里'}}</p><article v-for="item in filtered" :key="item.id" class="history-item" :class="{selected:selected===item.id}"><button class="history-open" :disabled="disabled" :aria-label="'查看解析记录 '+item.title" @click="emit('open',item.id)"><span class="history-cover"><img v-if="item.cover&&!broken.has(item.id)" :src="item.cover" alt="" loading="lazy" referrerpolicy="no-referrer" @error="broken.add(item.id)"/><IconMovie v-else :size="21"/></span><span class="history-copy"><strong>{{item.title}}</strong><span>{{names[item.platform]||item.platform}} · {{time(item.updated_at)}}</span><small>{{item.videos}} 视频 · {{item.images}} 图片{{item.quality==='original'?' · 高清':''}}</small></span></button><button class="history-icon history-delete" :disabled="disabled" :aria-label="'删除解析记录 '+item.title" @click="remove(item)"><IconTrash :size="14"/></button></article></div><div class="history-footer"><button class="history-text-button" :disabled="disabled||loading" @click="emit('refresh')"><IconRefresh :size="14"/>刷新</button><button class="history-text-button" :disabled="disabled||!items.length" @click="clear"><IconTrash :size="14"/>清空记录</button></div></div></template>

@@ -1,0 +1,28 @@
+.test-video-page .file-tools-options label{display:grid;gap:8px;margin:16px 0;font-size:13px}
+.test-video-page .el-select{width:100%}
+:root body .test-video-page .el-select__wrapper{
+  background:var(--theme-accent);
+  color:#fff;
+  transition:transform var(--duration) var(--ease),opacity var(--duration) var(--ease);
+}
+:root body .test-video-page .el-select :is(.el-select__placeholder,.el-select__selected-item,.el-select__caret,.el-select__input){color:#fff}
+:root body .test-video-page .el-select__wrapper:active:not(.is-disabled){transform:scale(.99)}
+:root body .test-video-page .el-select__wrapper.is-disabled{opacity:.45}
+:root[data-theme="mono"] body .test-video-page .el-select :is(.el-select__placeholder,.el-select__selected-item,.el-select__caret,.el-select__input){color:#000}
+@media(hover:hover){:root body .test-video-page .el-select__wrapper:hover:not(.is-disabled){opacity:.85}}
+.video-image-picker{width:100%;min-height:360px;overflow:hidden}
+.video-image-picker canvas{display:block;max-width:100%;max-height:360px;width:auto;height:auto;object-fit:contain}
+.video-image-picker span{max-width:100%;overflow-wrap:anywhere;font-size:12px}
+.video-progress{margin-top:16px;display:grid;gap:10px}
+.video-error{color:var(--el-color-danger);font-size:13px}
+.test-video-page .video-result{display:block;margin-top:20px}
+.video-result h2{margin:0 0 16px}
+.video-result video{display:block;width:100%;max-height:420px;background:#000;border-radius:12px}
+.video-result>div{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;margin-top:16px}
+.video-result span{overflow-wrap:anywhere;font-size:13px}
+.video-result a{display:inline-flex;align-items:center;gap:8px;padding:10px 16px;border-radius:10px;background:var(--theme-soft);color:var(--theme-ink)}
+.test-video-page button,.test-video-page a{transition:transform var(--duration) var(--ease),opacity var(--duration) var(--ease)}
+.test-video-page button:active:not(:disabled),.test-video-page a:active{transform:scale(.97)}
+.test-video-page :focus-visible{outline:2px solid var(--theme-accent);outline-offset:4px}
+@media(hover:hover){.test-video-page button:hover:not(:disabled),.test-video-page a:hover{opacity:.85}}
+@media(prefers-reduced-motion:reduce){.test-video-page *{transition:none!important;animation:none!important}}

@@ -1,0 +1,17 @@
+:root body :is(.test-video-page,.tools-studio) .el-select__wrapper{
+  background:var(--el-bg-color,#fff);
+  color:var(--theme-ink);
+  border:1px solid color-mix(in srgb,var(--theme-accent),transparent 65%) !important;
+  box-shadow:none!important;
+}
+:root body :is(.test-video-page,.tools-studio) .el-select :is(.el-select__placeholder,.el-select__selected-item,.el-select__caret,.el-select__input){
+  color:var(--theme-ink);
+}
+:root body :is(.test-video-page,.tools-studio) .el-select__wrapper.is-disabled{opacity:.45}
+@media(hover:hover){
+  :root body :is(.test-video-page,.tools-studio) .el-select__wrapper:hover:not(.is-disabled){opacity:.85}
+}
+:root[data-theme="mono"] body :is(.test-video-page,.tools-studio) .el-select__wrapper{
+  background:#000;color:#fff;
+}
+:root[data-theme="mono"] body :is(.test-video-page,.tools-studio) .el-select :is(.el-select__placeholder,.el-select__selected-item,.el-select__caret,.el-select__input){color:#fff}

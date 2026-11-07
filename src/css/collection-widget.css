@@ -1,0 +1,24 @@
+.collection-widget{--collection-duration:180ms;--collection-ease:cubic-bezier(.2,.7,.3,1);min-width:0}.collection-widget-heading,.collection-widget-heading h2,.collection-widget-list a{display:flex;align-items:center;gap:9px}.collection-widget-heading{justify-content:space-between;margin-bottom:12px}.collection-widget-heading h2{margin:0;font-size:15px;font-weight:600}.collection-widget svg{flex-shrink:0;color:var(--theme-accent)}.collection-widget a{color:var(--theme-accent);text-decoration:none;font-size:12px;transition:transform var(--collection-duration) var(--collection-ease),opacity var(--collection-duration) var(--collection-ease)}.collection-widget a:active{transform:scale(.98)}.collection-widget a:focus-visible{outline:2px solid var(--theme-accent);outline-offset:3px}.collection-widget-list{list-style:none;margin:0;padding:0}.collection-widget-list a{padding:10px 8px;min-height:38px;border-radius:var(--radius-control);color:var(--theme-ink)}.collection-widget-list a>span{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.collection-widget-list small,.collection-widget-empty{color:var(--el-text-color-secondary);font-size:12px}.collection-widget-list small{flex-shrink:0}.collection-widget-empty{min-height:92px;display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;margin:0}.collection-widget-heading>a{flex-shrink:0}
+@media(hover:hover){.collection-widget a:hover{opacity:.72}}
+@media(prefers-reduced-motion:reduce){.collection-widget a{transition:none}.collection-widget a:active{transform:none}}
+
+.overview-collections {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 290px), 1fr));
+  align-items: start;
+  gap: 16px;
+  width: min(100%, 760px);
+}
+.overview-collections > .collection-widget.app-card {
+  padding: 14px 16px;
+}
+.overview-collections .collection-widget-heading {
+  margin-bottom: 6px;
+}
+.overview-collections .collection-widget-list a {
+  min-height: 32px;
+  padding: 6px 4px;
+}
+.overview-collections .collection-widget-empty {
+  min-height: 56px;
+}

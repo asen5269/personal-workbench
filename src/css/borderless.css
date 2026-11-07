@@ -1,0 +1,59 @@
+/* Transparent borders preserve control dimensions and prevent layout shifts. */
+:root body *,
+:root body *::before,
+:root body *::after {
+  border-color: transparent !important;
+}
+:root body :is(.el-input__wrapper,.el-select__wrapper,.el-textarea__inner,.el-button,.app-card,.card,.theme-option,.workspace-header,.shell>aside) {
+  box-shadow: none !important;
+}
+:root body :is(.el-table,.el-descriptions,.el-calendar) {
+  --el-table-border-color: transparent;
+  --el-descriptions-table-border: 0;
+  --el-calendar-border: 0;
+}
+:root body .el-table__inner-wrapper::before { display: none; }
+:root body :focus-visible {
+  outline: 2px solid var(--theme-accent);
+  outline-offset: 3px;
+}
+:root[data-keyboard-focus="true"] body :is(.el-input__wrapper,.el-select__wrapper):focus-within {
+  outline: 2px solid var(--theme-accent);
+  outline-offset: 2px;
+}
+:root:not([data-keyboard-focus="true"]) body :is(.el-select,.el-input-number),
+:root:not([data-keyboard-focus="true"]) body .el-select * {
+  outline: none !important;
+}
+:root[data-keyboard-focus="true"] body .el-select:focus-within {
+  outline: 2px solid var(--theme-accent);
+  outline-offset: 3px;
+}
+:root body .el-select__input { outline: none !important; }
+/* Keep functional checkmarks and CSS arrows visible. */
+:root body .el-slider__button {
+  background: var(--theme-accent);
+  transition: transform var(--duration) var(--ease), opacity var(--duration) var(--ease);
+}
+:root body .el-slider__button:active { transform: scale(.94); }
+@media (hover:hover) {
+  :root body .el-slider__button:hover { transform: scale(1.15); }
+}
+@media (prefers-reduced-motion:reduce) {
+  :root body .el-slider__button { transition: none; }
+}
+:root body :is(.el-checkbox__inner::after,.el-select__caret,.el-popper__arrow::before) {
+  border-color: currentColor !important;
+}
+:root body .el-checkbox__inner { background: var(--theme-soft); }
+:root body .el-checkbox__input.is-checked .el-checkbox__inner { background: var(--theme-accent); color: var(--theme-bg); }
+:root body :is(button,[role="button"],.el-button) {
+  transition: transform var(--duration) var(--ease), opacity var(--duration) var(--ease);
+}
+:root body :is(button,[role="button"],.el-button):active:not(:disabled) { transform: scale(.97); }
+@media (hover:hover) {
+  :root body :is(button,[role="button"],.el-button):hover:not(:disabled) { opacity: .8; }
+}
+@media (prefers-reduced-motion:reduce) {
+  :root body :is(button,[role="button"],.el-button) { transition: none; }
+}

@@ -1,0 +1,23 @@
+:root body :is(.el-input,.el-textarea,.el-input-number){
+  border:1px solid color-mix(in srgb,var(--theme-ink),transparent 80%)!important;
+  border-radius:var(--radius-control);
+}
+:root body .el-input-number .el-input{border:0!important}
+:root body :is(.el-input,.el-textarea,.el-input-number):focus-within{
+  border-color:var(--theme-accent)!important;
+  outline:none!important;
+}
+:root body :is(.el-input__wrapper,.el-input__inner,.el-textarea__inner,.el-input-number){
+  outline:none!important;
+  box-shadow:none!important;
+}
+:root body .el-textarea__inner{border:0!important}
+:root body :is(.el-input,.el-textarea,.el-input-number).is-disabled{opacity:.55}
+:root body :is(input,textarea):not([type=checkbox]):not([type=radio]):not([type=range]):not([type=file]):not([type=hidden]):not([class^=el-]):not([class*=" el-"]){
+  border:1px solid color-mix(in srgb,var(--theme-ink),transparent 80%)!important;
+  border-radius:var(--radius-control);
+}
+:root body :is(input,textarea):not([class^=el-]):not([class*=" el-"]):focus{
+  border-color:var(--theme-accent)!important;
+  outline:none!important;
+}

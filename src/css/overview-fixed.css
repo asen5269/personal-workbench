@@ -1,0 +1,131 @@
+.overview-fixed{display:flex;flex-direction:column;gap:20px}.overview-fixed-weather{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;gap:28px;margin:0!important;padding:20px 24px!important}.overview-fixed .resource-summary{margin:0}.overview-fixed-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;align-items:start}.overview-fixed-grid>.app-card{min-width:0;margin:0!important;box-sizing:border-box}.overview-fixed-bookmarks{min-width:0}.overview-fixed-bookmarks .bookmark-bar{width:100%;margin:0;box-sizing:border-box;padding:14px 18px}.overview-fixed-bookmarks .bookmark-icons{flex:1;flex-wrap:nowrap;min-width:0;gap:10px;overflow:hidden}.overview-fixed-bookmarks .bookmark-item,.overview-fixed-bookmarks .bookmark-item a{width:44px;height:44px}.overview-fixed-bookmarks .bookmark-item a .bookmark-icon-box{width:40px;height:40px;padding:5px;box-sizing:border-box}.overview-fixed-bookmarks .bookmark-item a .bookmark-icon-box img,.overview-fixed-bookmarks .bookmark-item a .bookmark-letter{width:30px;height:30px}.overview-fixed-bookmarks .bookmark-controls{align-self:center;padding:0;flex-shrink:0}.overview-fixed-bookmarks .bookmark-controls button{height:32px;width:30px;font-size:21px}.overview-fixed-bookmarks .bookmark-controls button:disabled{opacity:.3}
+.overview-fixed .widget-content-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px}.overview-fixed .widget-content-heading h2{font-size:15px;font-weight:600;margin:0}.overview-fixed .widget-content-heading small{font-size:12px;font-weight:400;color:var(--el-text-color-secondary);margin-left:5px}.overview-fixed .widget-content-heading .el-button{font-size:12px;margin:0}.overview-fixed .widget-renewal-empty{text-align:center;padding:24px 8px}.overview-fixed .widget-renewal-empty strong{font-size:14px;font-weight:500}.overview-fixed .widget-renewal-empty p{margin:10px 0 0;font-size:12px;color:var(--el-text-color-secondary)}.overview-fixed .widget-renewal-action{width:100%;margin-top:16px}.overview-fixed .widget-renewal-row{display:flex;justify-content:space-between;align-items:center;gap:12px;width:100%;min-height:54px;border:0;background:none;padding:8px 0;text-align:left;color:inherit;font:inherit;cursor:pointer}.overview-fixed .widget-renewal-row>span:first-child{display:flex;flex-direction:column;gap:5px;min-width:0}.overview-fixed .widget-renewal-row strong{font-size:13px;font-weight:500;overflow-wrap:anywhere}.overview-fixed .widget-renewal-row small,.overview-fixed .widget-renewal-row>span:last-child{font-size:11px;color:var(--el-text-color-secondary)}
+.overview-fixed button{transition:transform var(--duration,200ms) var(--ease,cubic-bezier(.2,.7,.3,1)),opacity var(--duration,200ms) var(--ease,cubic-bezier(.2,.7,.3,1))}.overview-fixed button:active:not(:disabled){transform:scale(.97)}.overview-fixed button:focus-visible{outline:2px solid var(--theme-accent);outline-offset:3px}
+@media(hover:hover){.overview-fixed button:hover:not(:disabled){opacity:.8}}
+@media(max-width:1000px){.overview-fixed-grid{grid-template-columns:1fr}}
+@media(max-width:700px){.overview-fixed{gap:16px}.overview-fixed-weather{grid-template-columns:1fr;gap:16px;padding:18px!important}.overview-fixed-weather>.digital-clock{border-left:0;padding:16px 0 0!important}.overview-fixed-grid{gap:16px}}
+@media(prefers-reduced-motion:reduce){.overview-fixed button{transition:none}.overview-fixed button:active:not(:disabled){transform:none}}
+
+.overview-fixed {
+  width: 100%;
+  gap: 16px;
+  container-type: inline-size;
+}
+.overview-group {
+  display: grid;
+  gap: 14px;
+  margin-top: 12px;
+}
+.overview-group-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 650;
+  color: var(--theme-ink);
+}
+.overview-work-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+}
+.overview-recent-stack {
+  display: grid;
+  min-width: 0;
+  gap: 12px;
+}
+.overview-work-grid .app-card {
+  min-width: 0;
+  margin: 0;
+}
+.overview-recent-stack > .collection-widget.app-card {
+  padding: 14px 16px;
+}
+.overview-recent-stack .collection-widget-heading {
+  margin-bottom: 6px;
+}
+.overview-recent-stack .collection-widget-list a {
+  min-height: 32px;
+  padding: 6px 4px;
+}
+.overview-recent-stack .collection-widget-empty {
+  min-height: 56px;
+}
+.overview-fixed .resource-count {
+  margin-top: 12px;
+}
+.overview-fixed .resource-add {
+  margin-top: 12px;
+}
+@container (max-width: 720px) {
+  .overview-work-grid { grid-template-columns: minmax(0, 1fr); }
+}
+@container (min-width: 1000px) {
+  .overview-daily > .overview-work-grid {
+    grid-template-columns: minmax(0, 1.6fr) repeat(2, minmax(0, 1fr));
+    align-items: stretch;
+  }
+  .overview-daily .overview-recent-stack {
+    display: contents;
+  }
+}
+@container (max-width: 560px) {
+  .overview-fixed .resource-summary { grid-template-columns: minmax(0, 1fr); }
+}
+
+.overview-top-row {
+  display: grid;
+  gap: 16px;
+  align-items: stretch;
+  grid-template-columns: minmax(0, 1fr);
+}
+.overview-top-row > .overview-fixed-weather {
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 16px;
+  padding: 12px 16px !important;
+}
+.overview-top-row .digital-clock {
+  padding-inline: 14px 0;
+}
+.overview-top-row .clock-tile {
+  font-size: 32px;
+}
+.overview-top-row .bookmark-bar {
+  padding-block: 10px;
+}
+.overview-top-row .bookmark-icons {
+  min-height: 40px;
+}
+.overview-top-row .bookmark-item,
+.overview-top-row .bookmark-item a {
+  height: 40px;
+}
+.overview-fixed .resource-tile.app-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px 18px;
+}
+.overview-fixed .resource-title {
+  width: 100%;
+}
+.overview-fixed .resource-tile > p {
+  margin-bottom: 10px;
+}
+.overview-fixed .resource-tile > .resource-add {
+  width: auto;
+  margin-top: auto;
+  align-self: flex-start;
+}
+.overview-fixed .widget-renewal-empty {
+  padding: 12px 0;
+  text-align: left;
+}
+.overview-fixed .widget-renewal-action {
+  width: auto;
+  margin-top: 8px;
+}
+@container (max-width: 400px) {
+  .overview-top-row > .overview-fixed-weather {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
